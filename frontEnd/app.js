@@ -115,7 +115,7 @@ function getProfileSummary() {
 function profileFromSummary(summary) {
   if (summary.needs || summary.tone) {
     return {
-      title: summary.title || "Saved Profile",
+      title: summary.title || "Saved Persona",
       needs: summary.needs || "Needs to be defined.",
       tone: summary.tone || "Tone to be defined."
     };
@@ -123,7 +123,7 @@ function profileFromSummary(summary) {
 
   const [needs, tone] = String(summary.summary || "").split(" Recommended tone: ");
   return {
-    title: summary.title || "Saved Profile",
+    title: summary.title || "Saved Persona",
     needs: needs || "Needs to be defined.",
     tone: tone || "Tone to be defined."
   };
@@ -204,7 +204,7 @@ function saveEventUrl(value, showResult = false) {
 
   if (showResult) {
     eventResult.className = "inline-message success";
-    eventResult.textContent = "Event URL saved.";
+    eventResult.textContent = "Link saved.";
   }
 
   renderSavedInputs();
@@ -251,8 +251,8 @@ function renderSavedProfile() {
   const savedProfile = localStorage.getItem("profileSummary");
   if (!savedProfile) {
     profileSummary.classList.add("empty-state");
-    profileSummary.textContent = "Generate or edit a profile to start.";
-    profileStatus.textContent = "Needs profile";
+    profileSummary.textContent = "Choose or describe a persona.";
+    profileStatus.textContent = "Choose one";
     setStepState("profile", false);
     return false;
   }
@@ -260,14 +260,14 @@ function renderSavedProfile() {
   try {
     const profile = JSON.parse(savedProfile);
     profileSummary.classList.remove("empty-state");
-    profileSummary.textContent = `${profile.title || "Saved Profile"}: ${profile.summary || "No profile summary was saved."}`;
-    profileStatus.textContent = profile.title || "Saved";
+    profileSummary.textContent = `${profile.title || "Saved Persona"}: ${profile.summary || "No details saved yet."}`;
+    profileStatus.textContent = profile.title || "Ready";
     setStepState("profile", true);
     return true;
   } catch (error) {
     profileSummary.classList.add("empty-state");
-    profileSummary.textContent = "The saved profile could not be loaded.";
-    profileStatus.textContent = "Profile error";
+    profileSummary.textContent = "This persona could not be loaded.";
+    profileStatus.textContent = "Needs fix";
     setStepState("profile", false);
     return false;
   }
@@ -277,15 +277,15 @@ function renderSavedEventUrl() {
   const savedUrl = localStorage.getItem("eventUrl");
   if (!savedUrl) {
     eventUrl.classList.add("empty-state");
-    eventUrl.textContent = "Save an event URL to continue.";
-    eventStatus.textContent = "Needs URL";
+    eventUrl.textContent = "Add an event link.";
+    eventStatus.textContent = "Add link";
     setStepState("event", false);
     return false;
   }
 
   eventUrl.classList.remove("empty-state");
   eventUrl.innerHTML = `<a href="${escapeHtml(savedUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(savedUrl)}</a>`;
-  eventStatus.textContent = "Saved";
+  eventStatus.textContent = "Added";
   setStepState("event", true);
   return true;
 }
@@ -300,8 +300,8 @@ function renderSavedInputs() {
   generateStatus.textContent = isReady ? "Ready" : "Waiting";
   setStepState("generate", isReady);
   actionMessage.textContent = isReady
-    ? "Ready to create customized event materials."
-    : "Complete the profile and event URL before generating.";
+    ? "Ready to create."
+    : "Add both items to start.";
 }
 
 async function createWebPage() {
@@ -311,7 +311,7 @@ async function createWebPage() {
   try {
     savedInputs = getSavedInputs();
   } catch (error) {
-    actionMessage.textContent = "The saved profile could not be loaded. Save the profile again before creating a page.";
+    actionMessage.textContent = "This persona could not be loaded. Please choose it again.";
     return;
   }
 
@@ -322,13 +322,13 @@ async function createWebPage() {
 
   createWebPageButton.disabled = true;
   createWebPageButton.textContent = "Creating...";
-  actionMessage.textContent = "Creating your tailored page...";
+  actionMessage.textContent = "Creating your page...";
   resultTab = window.open("about:blank", "_blank");
 
   if (resultTab) {
     resultTab.opener = null;
-    resultTab.document.title = "Creating tailored page";
-    resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your tailored page...</p>";
+    resultTab.document.title = "Creating page";
+    resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your page...</p>";
   }
 
   try {
@@ -349,7 +349,7 @@ async function createWebPage() {
     if (resultTab) {
       resultTab.location.href = resultUrl;
     }
-    actionMessage.textContent = "Tailored web page created.";
+    actionMessage.textContent = "Page created.";
   } catch (error) {
     if (resultTab && !resultTab.closed) {
       resultTab.close();
@@ -358,7 +358,7 @@ async function createWebPage() {
     actionMessage.textContent = `Start the backend with "cd backEnd && npm start", then try again. ${error.message}`;
   } finally {
     createWebPageButton.disabled = false;
-    createWebPageButton.textContent = "Customize Web Page";
+    createWebPageButton.textContent = "Create Page";
     renderSavedInputs();
   }
 }
@@ -370,7 +370,7 @@ async function createVideo() {
   try {
     savedInputs = getSavedInputs();
   } catch (error) {
-    actionMessage.textContent = "The saved profile could not be loaded. Save the profile again before creating a video.";
+    actionMessage.textContent = "This persona could not be loaded. Please choose it again.";
     return;
   }
 
@@ -380,14 +380,14 @@ async function createVideo() {
   }
 
   createVideoButton.disabled = true;
-  createVideoButton.textContent = "Creating video...";
-  actionMessage.textContent = "Creating your event teaser...";
+  createVideoButton.textContent = "Creating...";
+  actionMessage.textContent = "Creating your video...";
   resultTab = window.open("about:blank", "_blank");
 
   if (resultTab) {
     resultTab.opener = null;
-    resultTab.document.title = "Creating event teaser";
-    resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your Happy Horse event teaser...</p>";
+    resultTab.document.title = "Creating video";
+    resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your video...</p>";
   }
 
   try {
@@ -409,12 +409,12 @@ async function createVideo() {
     const pageUrl = new URL("video/index.html", window.location.href);
     pageUrl.searchParams.set("videoUrl", result.videoUrl);
     pageUrl.searchParams.set("status", result.status || "completed");
-    pageUrl.searchParams.set("title", "Event Teaser");
+    pageUrl.searchParams.set("title", "Event Video");
 
     if (resultTab) {
       resultTab.location.href = pageUrl.href;
     }
-    actionMessage.textContent = "Event teaser created.";
+    actionMessage.textContent = "Video created.";
   } catch (error) {
     if (resultTab && !resultTab.closed) {
       resultTab.close();
@@ -429,7 +429,7 @@ async function createVideo() {
     }
   } finally {
     createVideoButton.disabled = false;
-    createVideoButton.textContent = "Customize Video";
+    createVideoButton.textContent = "Create Video";
     renderSavedInputs();
   }
 }
@@ -468,7 +468,7 @@ eventForm.addEventListener("submit", (event) => {
     saveEventUrl(websiteUrlInput.value, true);
   } catch (error) {
     eventResult.className = "inline-message error";
-    eventResult.textContent = "Enter a valid website URL.";
+    eventResult.textContent = "Please enter a valid event link.";
   }
 });
 
@@ -477,7 +477,7 @@ websiteUrlInput.addEventListener("change", () => {
     saveEventUrl(websiteUrlInput.value);
   } catch (error) {
     eventResult.className = "inline-message";
-    eventResult.textContent = "Enter a valid website URL before it can be saved.";
+    eventResult.textContent = "Please enter a valid event link.";
   }
 });
 

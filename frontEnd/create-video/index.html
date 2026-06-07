@@ -116,7 +116,7 @@
     function openVideoPlayer(job) {
       const videoPageUrl = new URL("../video/index.html", window.location.href);
       videoPageUrl.searchParams.set("videoUrl", job.videoUrl);
-      videoPageUrl.searchParams.set("title", "HappyHorse Event Video");
+      videoPageUrl.searchParams.set("title", "Promotional Video");
       videoPageUrl.searchParams.set("status", job.status);
       window.location.href = videoPageUrl.href;
     }

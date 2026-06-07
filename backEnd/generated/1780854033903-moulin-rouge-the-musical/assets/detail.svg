@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-label="Profile and event fit summary">
+  <rect width="1800" height="900" fill="#fbfaf7"/>
+  <rect x="70" y="60" width="1660" height="780" rx="28" fill="#ffffff" stroke="#d7ded7" stroke-width="4"/>
+  <text x="130" y="132" fill="#126853" font-size="32" font-weight="900">TAILORED EVENT GUIDE</text>
+  <text x="130" y="214" fill="#17201c" font-size="82" font-weight="900">Young Family</text>
+  <g transform="translate(1510 94)">
+    <circle cx="82" cy="82" r="82" fill="#eaf3ef"/>
+    <circle cx="82" cy="82" r="60" fill="#126853"/>
+    <text x="82" y="89" text-anchor="middle" fill="#ffffff" font-size="42" font-weight="900">15%</text>
+    <text x="82" y="132" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="800">FIT</text>
+  </g>
+  <g transform="translate(130 316)">
+      <rect x="0" y="-46" width="1540" height="146" rx="20" fill="#f2f5f1"/>
+      <circle cx="48" cy="20" r="30" fill="#b65f34"/>
+      <text x="48" y="31" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="900">1</text>
+      <text x="110" y="-6" fill="#17201c" font-size="34" font-weight="900">Why this may fit you</text>
+      <text x="110" y="40" fill="#3f4a45" font-size="25" font-weight="700">Cautious 15% fit: the Young Family profile wants caregiver reassurance, simple logistics, and clear</text>
+<text x="110" y="70.5" fill="#3f4a45" font-size="25" font-weight="700">value. Source flags ages 12+; no children under 4; under 12 not in Can-Can seats and strobe lights,</text>
+<text x="110" y="101" fill="#3f4a45" font-size="25" font-weight="700">gunfire, smoke, and adult themes, so this needs a caregiver check.</text>
+    </g>
+<g transform="translate(130 494)">
+      <rect x="0" y="-46" width="1540" height="146" rx="20" fill="#f2f5f1"/>
+      <circle cx="48" cy="20" r="30" fill="#b65f34"/>
+      <text x="48" y="31" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="900">2</text>
+      <text x="110" y="-6" fill="#17201c" font-size="34" font-weight="900">Plan your visit</text>
+      <text x="110" y="40" fill="#3f4a45" font-size="25" font-weight="700">The event is scheduled for Sun Jun 7. It takes place at Al Hirschfeld Theatre. Tickets are listed from</text>
+<text x="110" y="70.5" fill="#3f4a45" font-size="25" font-weight="700">$67. Check travel time, accessibility, seating, and arrival needs before you go.</text>
+    </g>
+<g transform="translate(130 672)">
+      <rect x="0" y="-46" width="1540" height="146" rx="20" fill="#f2f5f1"/>
+      <circle cx="48" cy="20" r="30" fill="#b65f34"/>
+      <text x="48" y="31" text-anchor="middle" fill="#ffffff" font-size="30" font-weight="900">3</text>
+      <text x="110" y="-6" fill="#17201c" font-size="34" font-weight="900">Good to know</text>
+      <text x="110" y="40" fill="#3f4a45" font-size="25" font-weight="700">Runtime: 2 hours and 45 minutes, incl. intermission. Age/content: ages 12+; no children under 4; under</text>
+<text x="110" y="70.5" fill="#3f4a45" font-size="25" font-weight="700">12 not in Can-Can seats; strobe lights, gunfire, smoke, and adult themes. Access: Can-Can seats are</text>
+<text x="110" y="101" fill="#3f4a45" font-size="25" font-weight="700">not accessible.</text>
+    </g>
+  <path d="M1512 760 C1560 716 1625 710 1676 746 C1628 796 1564 819 1480 812 C1483 791 1493 774 1512 760 Z" fill="#126853"/>
+</svg>

@@ -1,0 +1,578 @@
+{
+  "profile": {
+    "title": "Young Family",
+    "summary": "You want clear value and manageable cost, age-aware logistics, reassurance for caregivers, and social relevance. Your page should feel casual, current, and concrete. It should lead with what makes the event worth sharing with friends, then make the practical details quick to scan."
+  },
+  "eventPage": {
+    "sourceUrl": "https://www.broadway.com/shows/moulin-rouge-musical/",
+    "title": "Moulin Rouge! The Musical",
+    "description": "Get official tickets to Moulin Rouge! The Musical on Broadway at the Al Hirschfeld Theatre from the trusted Broadway.com source for Broadway show info, tickets, reviews and news.",
+    "headings": [
+      "Navigation",
+      "Moulin Rouge! The Musical Tickets",
+      "Moulin Rouge! The Musical Show Times",
+      "About Moulin Rouge! The Musical on Broadway",
+      "The Story",
+      "Details",
+      "Run Time",
+      "Ages",
+      "Content Advisory",
+      "Late Seating"
+    ],
+    "eventInfo": {
+      "name": "Moulin Rouge! The Musical",
+      "description": "Get official tickets to Moulin Rouge! The Musical on Broadway at the Al Hirschfeld Theatre from the trusted Broadway.com source for Broadway show info, tickets, reviews and news.",
+      "startDate": "Sun Jun 7",
+      "endDate": "Mon Jun 8",
+      "dates": [
+        "Sun Jun 7",
+        "Mon Jun 8",
+        "Tue Jun 9",
+        "Wed Jun 10"
+      ],
+      "displayStartDate": "Sun Jun 7",
+      "displayEndDate": "Mon Jun 8",
+      "displayDateRange": "",
+      "displayDates": [
+        "Sun Jun 7",
+        "Mon Jun 8",
+        "Tue Jun 9",
+        "Wed Jun 10"
+      ],
+      "location": "Photos Theater",
+      "locations": [
+        "Photos Theater",
+        "Al Hirschfeld Theatre",
+        "More Theater",
+        "The Al Hirschfeld Theatre, 302 W. 45th St. New York, NY 10036"
+      ],
+      "sections": [
+        {
+          "title": "Navigation",
+          "body": "mobile Need help? Call us at 1.800.BROADWAY My Order My Order show The Broadway Show gift Gift Cards group Group Sales Broadway.com menu Menu Icon/Close Broadway.com Shows Tickets News & Features Broadway Guide FAQ Home Shows Tickets News & Features Broadway Guide FAQ My Order My"
+        },
+        {
+          "title": "Moulin Rouge! The Musical Tickets",
+          "body": "A theatrical celebration of truth, beauty, freedom and love. 4.8 star rating star rating star rating star rating star rating Tickets starting at $ 67 .99 buy tickets Buy Tickets Show Times About Video & Photos Theater Reviews FAQ Cast & Creative News & Features Schedule chevron c"
+        },
+        {
+          "title": "Moulin Rouge! The Musical Show Times",
+          "body": "Upcoming performances and show times. Sun Jun 7 3:00pm Mon Jun 8 No Performances Tue Jun 9 7:00pm Wed Jun 10 2:00pm 8:00pm Thu Jun 11 7:00pm Fri Jun 12 7:00pm Sat Jun 13 2:00pm 8:00pm View Calendar section icon about"
+        },
+        {
+          "title": "About Moulin Rouge! The Musical on Broadway",
+          "body": "Everything you need to know about the show."
+        },
+        {
+          "title": "The Story",
+          "body": "Enter a world of splendor and romance, of eye-popping excess, of glitz, grandeur and glory! A world where Bohemians and aristocrats rub elbows and revel in electrifying enchantment. Pop the champagne and prepare for the spectacular spectacular... Welcome to Moulin Rouge! The Musi"
+        },
+        {
+          "title": "Details",
+          "body": "duration"
+        }
+      ],
+      "ticketInfo": {
+        "summary": "$ 67",
+        "source": "event page"
+      }
+    },
+    "images": [
+      {
+        "url": "https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://static.broadway.com/img/responsive/social/bwy-generic-social.ef3d64c1c7c9.jpg",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://imaging.broadway.com/images/widescreen-169/w278/h156/130244-2.jpg",
+        "source": "img",
+        "alt": "Al Hirschfeld Theatre",
+        "width": 278,
+        "height": 156,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://static.broadway.com/img/logos/publications/Variety.09b480a20c5f.png",
+        "source": "img",
+        "alt": "Variety",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://static.broadway.com/img/logos/publications/New_York_Times.80d15ca559fd.png",
+        "source": "img",
+        "alt": "The New York Times",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/135744-9.jpg",
+        "source": "img",
+        "alt": "Christian Douglas",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/138858-25.jpg",
+        "source": "img",
+        "alt": "Kelsie Watts",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/127101-11.jpg",
+        "source": "img",
+        "alt": "Eric Anderson",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/131662-11.jpg",
+        "source": "img",
+        "alt": "Robert Petkoff",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/124222-9.jpg",
+        "source": "img",
+        "alt": "David Harris",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "primaryImage": {
+      "url": "https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg",
+      "source": "og:image",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "placeholder": false,
+      "score": 56
+    },
+    "keywords": [
+      "star",
+      "rating",
+      "musical",
+      "broadway",
+      "moulin",
+      "rouge",
+      "show",
+      "icon",
+      "photo",
+      "read",
+      "tickets",
+      "cast",
+      "reviews",
+      "seating"
+    ],
+    "text": "Moulin Rouge! The Musical on Broadway Tickets | Broadway.com Skip to main content Navigation mobile Need help? Call us at 1.800.BROADWAY My Order My Order show The Broadway Show gift Gift Cards group Group Sales Broadway.com menu Menu Icon/Close Broadway.com Shows Tickets News & Features Broadway Guide FAQ Home Shows Tickets News & Features Broadway Guide FAQ My Order My Order show The Broadway Show gift Gift Cards group Group Sales envelope Contact Us mobile Call Us at 1.800.BROADWAY Moulin Rouge! The Musical Tickets A theatrical celebration of truth, beauty, freedom and love. 4.8 star rating star rating star rating star rating star rating Tickets starting at $ 67 .99 buy tickets Buy Tickets Show Times About Video & Photos Theater Reviews FAQ Cast & Creative News & Features Schedule chevron chevron Moulin Rouge! The Musical Show Times Upcoming performances and show times. Sun Jun 7 3:00pm Mon Jun 8 No Performances Tue Jun 9 7:00pm Wed Jun 10 2:00pm 8:00pm Thu Jun 11 7:00pm Fri Jun 12 7:00pm Sat Jun 13 2:00pm 8:00pm View Calendar section icon about About Moulin Rouge! The Musical on Broadway Everything you need to know about the show. The Story Enter a world of splendor and romance, of eye-popping excess, of glitz, grandeur and glory! A world where Bohemians and aristocrats rub elbows and revel in electrifying enchantment. Pop the champagne and prepare for the spectacular spectacular... Welcome to Moulin Rouge! The Musical. Baz Luhrmann's revolutionary film comes to life onstage, remixed in a new musical mash-up extravaganza. A theatrical celebration of truth, beauty, freedom and-above all-LOVE, Moulin Rouge! is more than a musical; it is a state of mind. How wonderful life is...at the Moulin Rouge. Details duration Run Time 2 hours and 45 minutes, including one intermission. audience Ages Recommended for ages 12 and up. Children under 4 are not permitted. Children under 12 are not permitted in Can-Can seats. content advisory Content Advisory This production uses strobe lights, gunfire, herbal cigarette smoke, and some adult themes. late seating Late Seating Can-Can seating patrons must arrive 15 minutes prior to curtain. Seating is at management's sole discretion. accessibility Accessibility Can-Can seats are not accessible. dates Show Dates Previews: Jun 28, 2019 • Opening: Jul 25, 2019 • Closing: Aug 30, 2026 Broadway Musicals Tony Winners Official Tickets 100% Guaranteed 100% Guaranteed. All tickets are verified directly from the official box office. exchange Flexible Returns. Hassle-free returns if a performance is canceled or the show closes. seats Seats Together. Bring friends and family, your seats are always together. contact Expert Support. Our dedicated customer service team is here to assist you with any questions. Video & Photos chevron chevron new video icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon new photo icon section icon theater Theater Learn more about the theater. Al Hirschfeld Theatre Entrance Entrance located directly on West 45th St. Water Fountain Water fountains located in the Mezzanine, the Ladies' Lounge, and the Rear Orchestra. Hearing Assistance Assisted listening and Closed Captioning devices always available. Elevators and Escalators This theater does not have elevators or escalators. Wheelchair Access Orchestra only. There are no steps to the designated wheelchair seating locations. Restrooms Located on the Mezzanine and downstairs from the Orchestra level. An accessible restroom is located on the Orchestra level. Accessible Seating Wheelchair accessible seats are located in the Orchestra. Coat Check Coat check is located in the Orchestra lobby. The charge is $3 per item. Bags or large coats can be checked. No luggage. Read More View Seating Map seatmap Preview the current seating layout for Moulin Rouge! The Musical Get Directions get directions 302 West 45th Street New York, NY 10036 More Theater Information chevron Learn about the facilities, amenities, accessibility features and more. section icon reviews Moulin Rouge! The Musical Reviews Reviews from both critics and verified customers. Critics’ Reviews (2) A collection of our favorite reviews from professional news sources. \"Yes they can-can! 'Moulin Rouge!' has a battery that never runs down.\" Variety Bob Verini \"Smart, shameless and extravagantly entertaining.\" The New York Times Ben Brantley Read More Customer Reviews (846) 4.8 star rating star rating star rating star rating star rating 5 stars 82% 4 stars 14% 3 stars 3% 2 stars 1% 1 star 1% Score average from verified show reviews by customers who’ve bought tickets from Broadway.com. star rating star rating star rating star rating star rating Magnificent! \"I loved the color and all the backgrounds. You felt like you were right there with the actors. You could feel their emotions. Music was right in touch. I had seen the movie years ago and my daughter recommended I see the Broadway show. I flew from Puerto Rico with a friend. I don't regret the expense to get there. It was really amazing. \" ... Read more Broadway.com Customer on May 30, 2026 star rating star rating star rating star rating star rating Great show \"It's a musical spectacle—colorful, with great dance numbers, fantastic stage sets, and plenty of humor. Unfortunately, the music was too loud. For the ultra-conservative: The line “Voulez-vous coucher avec moi” is an invitation to have sex. :-)\" ... Read more Ralph V from Winterthur on May 30, 2026 star rating star rating star rating star rating star rating Spectacular show \"It was wonderful the journey of music and act touching old days feeling with every song chosen . Actors were very good and enjoying while performing. Definitely would come again next time \" ... Read more Broadway.com Customer on May 29, 2026 star rating star rating star rating star rating star rating Visual delight!! \"Wonderful performances! High energy and lots of fun and entertainment. \" ... Read more Don Z from Bay St Louis on May 29, 2026 star rating star rating star rating star rating star rating Great Show!! \"My wife and I, both theater enthusiasts, recently took our now-graduated “theater kid” to see the Moulin Rouge show. It was an absolute delight! The set design, costumes, story, and music were all top-notch. You should definitely go see it!\" ... Read more Jayson C from Winder on May 28, 2026 star rating star rating star rating star rating star rating Incredible \"My husband and I were so impressed it made us fall in love with musicals! Upbeat, mesmerising, truly incredible\" ... Read more Broadway.com Customer on May 28, 2026 star rating star rating star rating star rating star rating Moulin Rouge is a must see \"It was a fantastic show. Very talented singers, amazing customs and settings and greatly entertaining. We loved everything about it. One of the highlights of our trip to NY. \" ... Read more Broadway.com Customer on May 26, 2026 star rating star rating star rating star rating star rating Fabulous! \"Such a fun show with a brilliant cast!\" ... Read more Broadway.com Customer on May 26, 2026 star rating star rating star rating star rating star rating Phenomenal! \"The staging, decor, costumes, music, artistry, energy and passion... all incredible. The music was all so relevant and creatively composed. Left you wanting for more. Highly recommended!\" ... Read more Faye S from Winnipeg on May 26, 2026 star rating star rating star rating star rating star rating Great show, we all loved it \"This was one of the best shows, going to buy tickets again. All of us enjoyed it so much.\" ... Read more Broadway.com Customer on May 26, 2026 Read All Reviews (846) Read More section icon faq Frequently Asked Questions Popular questions about the show. How long is Moulin Rouge! The Musical? Moulin Rouge! The Musical is approximately 2 hours and 35 minutes, with one intermission. When is Megan Thee Stallion starring in Moulin Rouge! The Musical? Grammy winner Megan Thee Stallion stars as Zidler in Moulin Rouge! The Musical through May 17, 2026. What is the age recommendation for Moulin Rouge! The Musical? Moulin Rouge! The Musical is recommended for ages 12 and up. Does Moulin Rouge! The Musical contain strobe lights or gun shots? Yes, be advised that Moulin Rouge! The Musical has moments were strobe lights, flashing lights, gunfire and fog are used. What should I wear to Moulin Rouge! The Musical? There is no specific dress code for Moulin Rouge! The Musical , or for any Broadway show. Whether dressed up, casual, or in a Paris-inspired outfit, be sure to dress comfortably and keep in mind the theater may be cool in the summer. Does Moulin Rouge! The Musical have a cast album? Yes! Moulin Rouge! The Musical 's original Broadway cast recording is available on both vinyl and CD at various major retailers. The album is also offered on most streaming and digital music services. Where is Moulin Rouge! The Musical playing on Broadway? Moulin Rouge! The Musical plays at: The Al Hirschfeld Theatre 302 W. 45th St. New York, NY 10036 For information on how to get to the Al Hirschfeld Theatre, head to our guide to The Best Ways to Get to Broadway Theaters . Is Moulin Rouge! The Musical closing? Yes. Moulin Rouge! The Musical will close on August 30, 2026. How many Tony Awards did Moulin Rouge! The Musical win? Moulin Rouge! The Musical was honored with ten Tony Awards in 2021, including Best Musical, Best Leading Actor in a Musical (Aaron Tveit), Best Featured Actor in a Musical (Danny Burstein)m Best Direction of a Musical (Alex Timbers) and Best Choreography (Sonya Tayeh). View More FAQs Need More Help? Use our comprehensive resources and support to get the most from your Broadway journey. support card faqs Read our Broadway FAQs Browse and search our comprehensive collection of frequently asked questions about everything Broadway. support card guides Read our Broadway Guides New to Broadway or looking to dive deeper? Our helpful guides make it easy to learn about shows, theaters, seating tips, and more. support card contact Call us at 1.800.BROADWAY Our dedicated customer service team is here to help. Call us during our business hours and we’ll be happy to answer your questions or assist with your order. support card message Send Us a Message Have a question or need assistance? Just fill out a simple form and we’ll get back to you as soon as possible. section icon cast and creative Cast & Creative The current cast and creative team of the show. Cast Christian Douglas Christian Cast & Creative (Christian Douglas, photo by Ted Ely) Christian Douglas Christian Douglas makes his Broadway debut following a year-and-a-half run leading the Moulin Rouge! The Musical National Tour. Prior to his time on the road, he appeared as Charlie Price in the Off-Broadway remount of Kinky Boots at Stage 42. Other favorite credits include Tony in West Side Story at The Muny and the National Tour of Pretty Woman: The Musical . Christian is also a composer and a songwriter. In addition to his own original music, he is the composer/lyricist for a developing new musical, The Sound , which has been a two-time Semi-Finalist for the O'Neill National Musical Theatre Conference. Close Learn More Kelsie Watts Satine Cast & Creative (Kelsie Watts, photo by Jeffrey Mosier) Kelsie Watts Kelsie Watts is a versatile recording artist redefining pop music with her captivating vocals and storytelling. Having collaborated with Backstreet Boys' AJ McLean, she has amassed a dedicated fanbase that includes a star-studded roster of supporters like Diane Warren, Kristin Chenoweth, Tyrese Gibson, Kyle Richards, Jermaine Dupri, and Timbaland. Known for her viral singing videos on social media and empowerment pop anthems, Kelsie's journey continued with SIX as her Broadway debut.. Close Learn More Eric Anderson Harold Zidler Cast & Creative (Eric",
+    "ticketResearch": {
+      "searched": false,
+      "reason": "source page includes ticket info"
+    }
+  },
+  "comparison": {
+    "profileKeywords": [
+      "should",
+      "age-aware",
+      "caregivers",
+      "casual",
+      "clear",
+      "concrete",
+      "cost",
+      "current",
+      "details",
+      "event",
+      "family",
+      "feel"
+    ],
+    "eventKeywords": [
+      "musical",
+      "broadway",
+      "moulin",
+      "rouge",
+      "tickets",
+      "cast",
+      "reviews",
+      "seating"
+    ],
+    "overlap": [],
+    "profileSignals": [
+      {
+        "label": "affordability",
+        "score": 2,
+        "evidence": [
+          "value",
+          "cost"
+        ]
+      },
+      {
+        "label": "social energy",
+        "score": 2,
+        "evidence": [
+          "friends",
+          "social"
+        ]
+      },
+      {
+        "label": "comfort",
+        "score": 1,
+        "evidence": [
+          "reassurance"
+        ]
+      },
+      {
+        "label": "convenience",
+        "score": 1,
+        "evidence": [
+          "quick"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 1,
+        "evidence": [
+          "family"
+        ]
+      }
+    ],
+    "eventSignals": [
+      {
+        "label": "convenience",
+        "score": 5,
+        "evidence": [
+          "easy",
+          "simple",
+          "schedule",
+          "access",
+          "accessibility"
+        ]
+      },
+      {
+        "label": "social energy",
+        "score": 5,
+        "evidence": [
+          "friends",
+          "music",
+          "social",
+          "group",
+          "together"
+        ]
+      },
+      {
+        "label": "comfort",
+        "score": 3,
+        "evidence": [
+          "accessible",
+          "accessibility",
+          "seating"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 3,
+        "evidence": [
+          "family",
+          "kid",
+          "children"
+        ]
+      },
+      {
+        "label": "networking",
+        "score": 2,
+        "evidence": [
+          "conference",
+          "business"
+        ]
+      },
+      {
+        "label": "learning",
+        "score": 1,
+        "evidence": [
+          "learn"
+        ]
+      }
+    ],
+    "matchedSignals": [
+      {
+        "label": "social energy",
+        "score": 7,
+        "profileEvidence": [
+          "friends",
+          "social"
+        ],
+        "eventEvidence": [
+          "friends",
+          "music",
+          "social",
+          "group",
+          "together"
+        ]
+      },
+      {
+        "label": "convenience",
+        "score": 6,
+        "profileEvidence": [
+          "quick"
+        ],
+        "eventEvidence": [
+          "easy",
+          "simple",
+          "schedule",
+          "access",
+          "accessibility"
+        ]
+      },
+      {
+        "label": "comfort",
+        "score": 4,
+        "profileEvidence": [
+          "reassurance"
+        ],
+        "eventEvidence": [
+          "accessible",
+          "accessibility",
+          "seating"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 4,
+        "profileEvidence": [
+          "family"
+        ],
+        "eventEvidence": [
+          "family",
+          "kid",
+          "children"
+        ]
+      }
+    ],
+    "unmetSignals": [
+      {
+        "label": "affordability",
+        "profileEvidence": [
+          "value",
+          "cost"
+        ]
+      }
+    ],
+    "ageCompatibility": {
+      "profileAgeGroup": "child",
+      "profileAges": [],
+      "eventMinimumAge": 12,
+      "status": "mismatch",
+      "scoreAdjustment": -45,
+      "maxScore": 15,
+      "adultFriendlyEvent": true,
+      "evidence": [
+        "recommended for ages 12 and up",
+        "children under 4 are not permitted",
+        "children under 12 are not permitted",
+        "strobe lights"
+      ]
+    },
+    "interests": [
+      "social energy",
+      "convenience",
+      "comfort",
+      "family value"
+    ],
+    "rawScore": 88,
+    "unmetNeedPenalty": 10,
+    "ageScoreAdjustment": -45,
+    "spendReadyPremiumFit": false,
+    "spendReadyScoreBonus": 0,
+    "ageScoreCap": 15,
+    "scoreFloor": 0,
+    "uncappedScore": 33,
+    "score": 15
+  },
+  "pageModel": {
+    "eventName": "Moulin Rouge! The Musical",
+    "audience": "Young Family",
+    "headline": "Moulin Rouge! The Musical",
+    "subheadline": "Get official tickets to Moulin Rouge! The Musical on Broadway at the Al Hirschfeld Theatre from the trusted Broadway.com source for Broadway show info, tickets, reviews and news.",
+    "callToAction": "Plan My Visit",
+    "proofPoint": "15% fit after subtracting 10 points for 1 unmet need category and subtracting 45 points for age mismatch, capped at 15% because of age guidance from 4 matched interest categories found in both the saved profile and event page.",
+    "eventDetails": [
+      "Date: Sun Jun 7",
+      "Location: Al Hirschfeld Theatre",
+      "Ticket price: $67"
+    ],
+    "visitorGuide": {
+      "title": "What to Know",
+      "opener": "Moulin Rouge! The Musical may be a good match if you are looking for social energy, convenience, comfort, and family value.",
+      "reasons": [
+        "The category chips are shown only when saved-profile cues and event-page cues both support them: social energy matched profile cues (friends and social) with event cues (friends and music), convenience matched profile cues (quick) with event cues (easy and simple), and comfort matched profile cues (reassurance) with event cues (accessible and accessibility).",
+        "The event page also highlights social energy, convenience, and comfort, which can help you quickly understand what kind of experience to expect.",
+        "You are looking for a relaxed social outing, clear value and a manageable cost, and family-friendly logistics. This event is worth comparing because the page surfaces details you can check against those priorities before deciding.",
+        "The event takes place at Al Hirschfeld Theatre, so you can check travel time, parking, and nearby transit before deciding."
+      ],
+      "notes": [
+        "The scheduled time is Sun Jun 7. Check whether the duration and arrival timing work for your day.",
+        "Look for practical details such as cost, accessibility, comfort, what to bring, and how active participation will be.",
+        "The source images give a sense of the atmosphere, but the event page is still the best place to confirm final details."
+      ],
+      "close": "Use this page as a quick guide to decide whether Moulin Rouge! The Musical fits your interests, schedule, and comfort level."
+    },
+    "sourceImage": "https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg",
+    "sourceImages": [
+      {
+        "url": "https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://static.broadway.com/img/responsive/social/bwy-generic-social.ef3d64c1c7c9.jpg",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://imaging.broadway.com/images/widescreen-169/w278/h156/130244-2.jpg",
+        "source": "img",
+        "alt": "Al Hirschfeld Theatre",
+        "width": 278,
+        "height": 156,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://static.broadway.com/img/logos/publications/Variety.09b480a20c5f.png",
+        "source": "img",
+        "alt": "Variety",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://static.broadway.com/img/logos/publications/New_York_Times.80d15ca559fd.png",
+        "source": "img",
+        "alt": "The New York Times",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/135744-9.jpg",
+        "source": "img",
+        "alt": "Christian Douglas",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/138858-25.jpg",
+        "source": "img",
+        "alt": "Kelsie Watts",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/127101-11.jpg",
+        "source": "img",
+        "alt": "Eric Anderson",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/131662-11.jpg",
+        "source": "img",
+        "alt": "Robert Petkoff",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://imaging.broadway.com/images/square-11/w68/124222-9.jpg",
+        "source": "img",
+        "alt": "David Harris",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "sections": [
+      {
+        "title": "Why this may fit you",
+        "body": "Cautious 15% fit: the Young Family profile wants caregiver reassurance, simple logistics, and clear value. Source flags ages 12+; no children under 4; under 12 not in Can-Can seats and strobe lights, gunfire, smoke, and adult themes, so this needs a caregiver check."
+      },
+      {
+        "title": "Plan your visit",
+        "body": "The event is scheduled for Sun Jun 7. It takes place at Al Hirschfeld Theatre. Tickets are listed from $67. Check travel time, accessibility, seating, and arrival needs before you go."
+      },
+      {
+        "title": "Good to know",
+        "body": "Runtime: 2 hours and 45 minutes, incl. intermission. Age/content: ages 12+; no children under 4; under 12 not in Can-Can seats; strobe lights, gunfire, smoke, and adult themes. Access: Can-Can seats are not accessible."
+      }
+    ],
+    "highlights": [
+      "social energy",
+      "convenience",
+      "comfort",
+      "family value"
+    ]
+  },
+  "digitalAssets": [
+    {
+      "id": "hero",
+      "fileName": "hero.svg",
+      "relativeUrl": "assets/hero.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1600\" height=\"900\" viewBox=\"0 0 1600 900\" role=\"img\" aria-label=\"Moulin Rouge! The Musical\">\n  <defs>\n    <linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#0f6b56\"/>\n      <stop offset=\"0.58\" stop-color=\"#26766a\"/>\n      <stop offset=\"1\" stop-color=\"#b35f37\"/>\n    </linearGradient>\n    <radialGradient id=\"light\" cx=\"68%\" cy=\"22%\" r=\"62%\">\n      <stop offset=\"0\" stop-color=\"#ffe7b8\" stop-opacity=\"0.86\"/>\n      <stop offset=\"1\" stop-color=\"#ffe7b8\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <filter id=\"shadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n      <feDropShadow dx=\"0\" dy=\"18\" stdDeviation=\"22\" flood-color=\"#0d3029\" flood-opacity=\"0.24\"/>\n    </filter>\n  </defs>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#sky)\"/>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#light)\"/>\n  <path d=\"M0 628 C210 526 346 690 557 598 C755 512 832 328 1078 393 C1297 450 1392 544 1600 442 L1600 900 L0 900 Z\" fill=\"#f7f1e7\" opacity=\"0.92\"/>\n  <path d=\"M1020 182 C1128 116 1278 135 1376 232 C1476 332 1492 483 1417 590 C1337 704 1169 722 1045 643 C914 560 882 369 963 245 C978 222 995 201 1020 182 Z\" fill=\"#fff8ec\" opacity=\"0.92\" filter=\"url(#shadow)\"/>\n  <circle cx=\"1206\" cy=\"394\" r=\"156\" fill=\"#e7f2ee\"/>\n  <path d=\"M1091 435 C1140 365 1192 334 1255 340 C1320 348 1371 398 1395 474 C1346 525 1285 550 1212 548 C1149 546 1102 507 1091 435 Z\" fill=\"#126853\"/>\n  <path d=\"M1130 430 C1169 392 1210 376 1255 382 C1304 388 1340 421 1358 471 C1316 498 1272 511 1225 508 C1182 504 1147 478 1130 430 Z\" fill=\"#f0b66d\"/>\n  <g transform=\"translate(96 160)\">\n<text x=\"0\" y=\"86\" fill=\"#ffffff\" font-size=\"86\" font-weight=\"800\">Moulin Rouge! The Musical</text>\n<text x=\"4\" y=\"368\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Get official tickets to Moulin Rouge! The Musical on</text>\n<text x=\"4\" y=\"409.85\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Broadway at the Al Hirschfeld Theatre from the trusted</text>\n<text x=\"4\" y=\"451.7\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Broadway.com source for Broadway show info, tickets,</text>\n  </g>\n  <g transform=\"translate(100 710)\">\n    <g transform=\"translate(0 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">social energy</text>\n    </g>\n<g transform=\"translate(250 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">convenience</text>\n    </g>\n<g transform=\"translate(500 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">comfort</text>\n    </g>\n<g transform=\"translate(750 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">family value</text>\n    </g>\n  </g>\n  <g transform=\"translate(1020 675)\">\n    <text x=\"0\" y=\"0\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Date: Sun Jun 7</text>\n<text x=\"0\" y=\"34\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Location: Al Hirschfeld Theatre</text>\n<text x=\"0\" y=\"68\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Ticket price: $67</text>\n  </g>\n</svg>"
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.svg",
+      "relativeUrl": "assets/detail.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1800\" height=\"900\" viewBox=\"0 0 1800 900\" role=\"img\" aria-label=\"Profile and event fit summary\">\n  <rect width=\"1800\" height=\"900\" fill=\"#fbfaf7\"/>\n  <rect x=\"70\" y=\"60\" width=\"1660\" height=\"780\" rx=\"28\" fill=\"#ffffff\" stroke=\"#d7ded7\" stroke-width=\"4\"/>\n  <text x=\"130\" y=\"132\" fill=\"#126853\" font-size=\"32\" font-weight=\"900\">TAILORED EVENT GUIDE</text>\n  <text x=\"130\" y=\"214\" fill=\"#17201c\" font-size=\"82\" font-weight=\"900\">Young Family</text>\n  <g transform=\"translate(1510 94)\">\n    <circle cx=\"82\" cy=\"82\" r=\"82\" fill=\"#eaf3ef\"/>\n    <circle cx=\"82\" cy=\"82\" r=\"60\" fill=\"#126853\"/>\n    <text x=\"82\" y=\"89\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"42\" font-weight=\"900\">15%</text>\n    <text x=\"82\" y=\"132\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"18\" font-weight=\"800\">FIT</text>\n  </g>\n  <g transform=\"translate(130 316)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">1</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Why this may fit you</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Cautious 15% fit: the Young Family profile wants caregiver reassurance, simple logistics, and clear</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">value. Source flags ages 12+; no children under 4; under 12 not in Can-Can seats and strobe lights,</text>\n<text x=\"110\" y=\"101\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">gunfire, smoke, and adult themes, so this needs a caregiver check.</text>\n    </g>\n<g transform=\"translate(130 494)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">2</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Plan your visit</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">The event is scheduled for Sun Jun 7. It takes place at Al Hirschfeld Theatre. Tickets are listed from</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">$67. Check travel time, accessibility, seating, and arrival needs before you go.</text>\n    </g>\n<g transform=\"translate(130 672)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">3</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Good to know</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Runtime: 2 hours and 45 minutes, incl. intermission. Age/content: ages 12+; no children under 4; under</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">12 not in Can-Can seats; strobe lights, gunfire, smoke, and adult themes. Access: Can-Can seats are</text>\n<text x=\"110\" y=\"101\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">not accessible.</text>\n    </g>\n  <path d=\"M1512 760 C1560 716 1625 710 1676 746 C1628 796 1564 819 1480 812 C1483 791 1493 774 1512 760 Z\" fill=\"#126853\"/>\n</svg>"
+    }
+  ]
+}

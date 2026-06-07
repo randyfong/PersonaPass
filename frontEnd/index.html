@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Persona Pass</title>
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=7">
 </head>
 <body>
   <main class="app-shell">
     <section class="workspace" aria-labelledby="page-title">
       <div class="intro">
         <h1 id="page-title">Persona Pass</h1>
-        <p>Pick who you are designing for, add an event link, and create a tailored page or video.</p>
+        <p>Pick who you are designing for, add an event link, and create a tailored page.</p>
       </div>
 
       <section class="status-strip" aria-label="Progress">
@@ -61,10 +61,10 @@
             <label for="profile-title">Persona name</label>
             <input id="profile-title" type="text" value="Custom Persona">
 
-            <label for="profile-needs">What matters to them</label>
+            <label for="profile-needs">What matters to you</label>
             <textarea id="profile-needs" rows="4">Describe the persona above to build this.</textarea>
 
-            <label for="profile-tone">How to speak to them</label>
+            <label for="profile-tone">How to speak to you</label>
             <textarea id="profile-tone" rows="5">Tone guidance will appear after you build a persona.</textarea>
           </form>
         </section>
@@ -103,7 +103,6 @@
 
             <div class="action-row" aria-label="Create">
               <button id="create-web-page" class="primary-action" type="button" disabled>Create Page</button>
-              <button id="create-video" class="secondary-action" type="button" disabled>Create Video</button>
             </div>
             <p id="action-message" class="inline-message" aria-live="polite">Add both items to start.</p>
           </section>
@@ -112,6 +111,6 @@
     </section>
   </main>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

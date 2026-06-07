@@ -1,0 +1,20 @@
+{
+  "provider": "magnific-mcp",
+  "status": "local_assets_created_and_ready_for_magnific_replacement",
+  "assets": [
+    {
+      "id": "hero",
+      "fileName": "hero.png",
+      "fallbackUrl": "assets/hero.svg",
+      "aspectRatio": "16:9",
+      "prompt": "Create a polished hero image for \"Moulin Rouge! The Musical\" tailored to Young Family. Use this source event image as visual reference: https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg. Event details: date sun jun 7, location al hirschfeld theatre, ticket price $67. Visual priorities: social energy, convenience, comfort, family value. Style: premium editorial event web page, realistic lighting, inviting composition, no text in image."
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.png",
+      "fallbackUrl": "assets/detail.svg",
+      "aspectRatio": "4:3",
+      "prompt": "Create a supporting event detail image for Young Family. Use this source event image as visual reference: https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg. Use cues from this event page: Get official tickets to Moulin Rouge! The Musical on Broadway at the Al Hirschfeld Theatre from the trusted Broadway.com source for Broadway show info, tickets, reviews and news.. Emphasize social energy, convenience, comfort, family value. No text in image."
+    }
+  ]
+}

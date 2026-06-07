@@ -26,6 +26,8 @@ The API listens on `http://localhost:3001`.
 - `GET /health`
 - `POST /api/create-web-page`
 - `POST /api/create-video`
+- `POST /api/happyhorse-video-jobs`
+- `GET /api/happyhorse-video-jobs/:jobId`
 
 Example payload:
 
@@ -45,4 +47,10 @@ Video customization uses Magnific MCP `video_generate` with Happy Horse (`happy-
 
 ```bash
 HAPPY_HORSE_USE_MOCK=true npm start
+```
+
+The `Create Video` browser flow uses the newer HappyHorse job endpoints. The frontend opens a waiting tab immediately, creates a local backend job with `POST /api/happyhorse-video-jobs`, polls `GET /api/happyhorse-video-jobs/:jobId`, and navigates to the video player when the job returns a video URL. The backend reads the Model Studio key from `.env` as `DASHSCOPE_API_KEY`; that key is never returned to the browser. The Alibaba Model Studio payload uses `duration: 10`. When `ALIBABA_MODEL_STUDIO_MCP_URL` or `MODEL_STUDIO_MCP_URL` is set, the backend calls that MCP server with JSON-RPC `tools/call`; otherwise it uses the DashScope-compatible Model Studio task API directly. The default direct API URL is `https://dashscope-intl.aliyuncs.com`; set `DASHSCOPE_BASE_URL` if your API key was created for another region, such as Virginia or Beijing. For local tests without provider calls:
+
+```bash
+HAPPY_HORSE_ALIBABA_USE_MOCK=true npm start
 ```

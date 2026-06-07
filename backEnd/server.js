@@ -7,6 +7,10 @@ loadEnvFile();
 
 const { handleCreateVideo } = require("./customizeVideo");
 const { handleCreateWebPage } = require("./customizeWebPage");
+const {
+  handleCreateHappyHorseVideoJob,
+  handleGetHappyHorseVideoJob
+} = require("./happyHorseVideo");
 const { OUTPUT_ROOT } = require("./storage");
 
 const PORT = Number(process.env.PORT || 3001);
@@ -101,6 +105,16 @@ const server = http.createServer(async (request, response) => {
       return;
     }
 
+    if (request.method === "POST" && request.url === "/api/happyhorse-video-jobs") {
+      await handleCreateHappyHorseVideoJob(request, response, { readJsonBody, sendJson });
+      return;
+    }
+
+    if (request.method === "GET" && request.url.startsWith("/api/happyhorse-video-jobs/")) {
+      await handleGetHappyHorseVideoJob(request, response, { sendJson });
+      return;
+    }
+
     if (request.method === "GET" && request.url.startsWith("/generated/")) {
       await serveGeneratedFile(request, response);
       return;
@@ -120,6 +134,8 @@ if (require.main === module) {
 
 module.exports = {
   server,
+  handleCreateHappyHorseVideoJob,
+  handleGetHappyHorseVideoJob,
   handleCreateVideo,
   handleCreateWebPage
 };

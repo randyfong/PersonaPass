@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Event Video</title>
+  <link rel="stylesheet" href="../styles.css?v=11">
+</head>
+<body>
+  <main class="app-shell">
+    <section class="workspace" aria-labelledby="page-title">
+      <div class="intro">
+        <p class="eyebrow">Video</p>
+        <h1 id="page-title">Create Video</h1>
+        <p id="video-flow-summary">Build a video from the saved persona and event.</p>
+      </div>
+
+      <section class="panel readiness-panel" aria-labelledby="video-ready-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ready</p>
+          <h2 id="video-ready-title">Video setup</h2>
+        </div>
+
+        <div class="video-progress" aria-hidden="true">
+          <span></span>
+        </div>
+
+        <dl class="readiness-list">
+          <div>
+            <dt>Persona</dt>
+            <dd id="video-profile-summary" class="empty-state">Choose or describe a persona.</dd>
+          </div>
+          <div>
+            <dt>Event</dt>
+            <dd id="video-event-url" class="empty-state">Add an event link.</dd>
+          </div>
+        </dl>
+
+        <div class="action-row" aria-label="Video actions">
+          <a class="secondary-action nav-action" href="../index.html#readiness-title">Back</a>
+          <button id="retry-video-flow" class="primary-action" type="button" hidden>Retry</button>
+        </div>
+        <p id="video-action-message" class="inline-message" aria-live="polite">Preparing video setup...</p>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const videoProfileSummary = document.querySelector("#video-profile-summary");
+    const videoEventUrl = document.querySelector("#video-event-url");
+    const retryVideoFlowButton = document.querySelector("#retry-video-flow");
+    const videoActionMessage = document.querySelector("#video-action-message");
+    const videoFlowSummary = document.querySelector("#video-flow-summary");
+    const backendBaseUrl = "http://localhost:3001";
+    const pollIntervalMs = 3000;
+    let currentInputs = null;
+    let pollTimer = null;
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function setMessage(message, type = "") {
+      videoActionMessage.className = `inline-message${type ? ` ${type}` : ""}`;
+      videoActionMessage.textContent = message;
+    }
+
+    function loadVideoInputs() {
+      const savedProfile = localStorage.getItem("profileSummary");
+      const savedEventUrl = localStorage.getItem("eventUrl");
+      let hasProfile = false;
+      let hasEvent = false;
+      let profile = null;
+
+      if (savedProfile) {
+        try {
+          profile = JSON.parse(savedProfile);
+          videoProfileSummary.classList.remove("empty-state");
+          videoProfileSummary.textContent = `${profile.title || "Saved Persona"}: ${profile.summary || "No details saved yet."}`;
+          videoFlowSummary.textContent = `${profile.title || "Saved Persona"} video setup`;
+          hasProfile = true;
+        } catch (error) {
+          videoProfileSummary.textContent = "This persona could not be loaded.";
+        }
+      }
+
+      if (savedEventUrl) {
+        videoEventUrl.classList.remove("empty-state");
+        videoEventUrl.innerHTML = `<a href="${escapeHtml(savedEventUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(savedEventUrl)}</a>`;
+        hasEvent = true;
+      }
+
+      const isReady = hasProfile && hasEvent;
+      currentInputs = isReady ? { profile, eventUrl: savedEventUrl } : null;
+
+      if (!isReady) {
+        retryVideoFlowButton.hidden = true;
+        setMessage("Return and complete persona and event first.", "error");
+      }
+
+      return currentInputs;
+    }
+
+    function clearPollTimer() {
+      if (pollTimer) {
+        clearTimeout(pollTimer);
+        pollTimer = null;
+      }
+    }
+
+    function openVideoPlayer(job) {
+      const videoPageUrl = new URL("../video/index.html", window.location.href);
+      videoPageUrl.searchParams.set("videoUrl", job.videoUrl);
+      videoPageUrl.searchParams.set("title", "HappyHorse Event Video");
+      videoPageUrl.searchParams.set("status", job.status);
+      window.location.href = videoPageUrl.href;
+    }
+
+    function showFailure(message) {
+      clearPollTimer();
+      retryVideoFlowButton.hidden = false;
+      setMessage(message || "Video generation failed. Please retry.", "error");
+    }
+
+    async function pollVideoJob(jobId) {
+      try {
+        const response = await fetch(`${backendBaseUrl}/api/happyhorse-video-jobs/${encodeURIComponent(jobId)}`);
+        const result = await response.json();
+
+        if (!response.ok || !result.job) {
+          throw new Error(result.error || "Video job could not be loaded.");
+        }
+
+        const job = result.job;
+        if (job.status === "completed" && job.videoUrl) {
+          setMessage("Video ready. Opening player...", "success");
+          openVideoPlayer(job);
+          return;
+        }
+
+        if (job.status === "failed") {
+          showFailure(job.error || "Video generation failed. Please retry.");
+          return;
+        }
+
+        setMessage(job.message || "HappyHorse video is generating...");
+        pollTimer = setTimeout(() => pollVideoJob(jobId), pollIntervalMs);
+      } catch (error) {
+        showFailure(error.message);
+      }
+    }
+
+    async function startVideoFlow() {
+      const inputs = loadVideoInputs();
+      if (!inputs) {
+        return;
+      }
+
+      clearPollTimer();
+      retryVideoFlowButton.hidden = true;
+      setMessage("Preparing video brief...");
+
+      try {
+        const response = await fetch(`${backendBaseUrl}/api/happyhorse-video-jobs`, {
+          method: "POST",
+          headers: {
+            "content-type": "application/json"
+          },
+          body: JSON.stringify(inputs)
+        });
+        const result = await response.json();
+
+        if (!response.ok || !result.job) {
+          throw new Error(result.error || "Video job could not be created.");
+        }
+
+        setMessage(result.job.message || "Creating HappyHorse video...");
+        pollVideoJob(result.job.id);
+      } catch (error) {
+        showFailure(`Start the backend with "cd backEnd && npm start", then try again. ${error.message}`);
+      }
+    }
+
+    retryVideoFlowButton.addEventListener("click", startVideoFlow);
+
+    window.addEventListener("pageshow", loadVideoInputs);
+    window.addEventListener("storage", loadVideoInputs);
+
+    loadVideoInputs();
+    startVideoFlow();
+  </script>
+</body>
+</html>

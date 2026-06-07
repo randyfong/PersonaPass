@@ -374,6 +374,12 @@ button:focus-visible {
   background: #e2d0b5;
 }
 
+.nav-action {
+  display: inline-grid;
+  place-items: center;
+  text-decoration: none;
+}
+
 .inline-message {
   margin-top: 14px;
   font-size: 0.95rem;
@@ -399,6 +405,38 @@ button:focus-visible {
   display: grid;
   gap: 14px;
   margin: 0;
+}
+
+.video-progress {
+  position: relative;
+  height: 8px;
+  margin: 20px 0 18px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(167, 143, 109, 0.28);
+}
+
+.video-progress span {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 42%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent), var(--copper));
+  animation: video-progress-sweep 1.8s ease-in-out infinite;
+}
+
+@keyframes video-progress-sweep {
+  0% {
+    transform: translateX(-105%);
+  }
+
+  50% {
+    transform: translateX(72%);
+  }
+
+  100% {
+    transform: translateX(250%);
+  }
 }
 
 .readiness-list div {

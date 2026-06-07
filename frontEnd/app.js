@@ -67,6 +67,7 @@ const eventResult = document.querySelector("#event-result");
 const eventUrl = document.querySelector("#event-url");
 
 const createWebPageButton = document.querySelector("#create-web-page");
+const createVideoButton = document.querySelector("#create-video");
 const actionMessage = document.querySelector("#action-message");
 
 const profileStatus = document.querySelector("#profile-status");
@@ -361,6 +362,11 @@ function getSavedInputs() {
   };
 }
 
+function setCreateButtonsDisabled(disabled) {
+  createWebPageButton.disabled = disabled;
+  createVideoButton.disabled = disabled;
+}
+
 function renderSavedProfile() {
   const savedProfile = localStorage.getItem("profileSummary");
   if (!savedProfile) {
@@ -409,7 +415,7 @@ function renderSavedInputs() {
   const hasEvent = renderSavedEventUrl();
   const isReady = hasProfile && hasEvent;
 
-  createWebPageButton.disabled = !isReady;
+  setCreateButtonsDisabled(!isReady);
   generateStatus.textContent = isReady ? "Ready" : "Waiting";
   setStepState("generate", isReady);
 
@@ -438,7 +444,7 @@ async function createWebPage() {
     return;
   }
 
-  createWebPageButton.disabled = true;
+  setCreateButtonsDisabled(true);
   createWebPageButton.textContent = "Creating...";
   delete actionMessage.dataset.preserve;
   actionMessage.textContent = "Creating your page...";
@@ -492,6 +498,32 @@ async function createWebPage() {
   }
 }
 
+function openCreateVideoPath() {
+  let savedInputs;
+
+  try {
+    savedInputs = getSavedInputs();
+  } catch (error) {
+    actionMessage.dataset.preserve = "true";
+    actionMessage.textContent = "This persona could not be loaded. Please choose it again.";
+    return;
+  }
+
+  if (!savedInputs) {
+    renderSavedInputs();
+    return;
+  }
+
+  const videoFlowUrl = new URL("create-video/index.html", window.location.href).href;
+  const videoTab = window.open(videoFlowUrl, "_blank");
+
+  if (videoTab) {
+    videoTab.opener = null;
+  } else {
+    window.location.href = videoFlowUrl;
+  }
+}
+
 paragraphInput.addEventListener("input", () => {
   const singleParagraph = paragraphInput.value.replace(/\n{2,}/g, "\n").replace(/\n/g, " ");
   if (singleParagraph !== paragraphInput.value) {
@@ -531,6 +563,7 @@ websiteUrlInput.addEventListener("change", () => {
 });
 
 createWebPageButton.addEventListener("click", createWebPage);
+createVideoButton.addEventListener("click", openCreateVideoPath);
 window.addEventListener("pageshow", renderSavedInputs);
 window.addEventListener("focus", renderSavedInputs);
 window.addEventListener("storage", renderSavedInputs);

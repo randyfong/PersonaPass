@@ -5,6 +5,6 @@
   "type": "commonjs",
   "scripts": {
     "start": "node server.js",
-    "check": "node --check server.js && node --check env.js && node --check customizeWebPage/index.js && node --check customizeVideo/index.js && node --check contentAnalyzer.js && node --check digitalAssets.js && node --check eventReader.js && node --check magnificAssets.js && node --check pageRenderer.js && node --check storage.js && node --check ticketResearch.js && node tests/env.test.js && node tests/ageCap.test.js && node tests/customizeVideo.test.js"
+    "check": "node --check server.js && node --check env.js && node --check customizeWebPage/index.js && node --check customizeVideo/index.js && node --check happyHorseVideo/index.js && node --check contentAnalyzer.js && node --check digitalAssets.js && node --check eventReader.js && node --check magnificAssets.js && node --check pageRenderer.js && node --check storage.js && node --check ticketResearch.js && node tests/env.test.js && node tests/ageCap.test.js && node tests/customizeVideo.test.js && node tests/happyHorseVideo.test.js"
   }
 }

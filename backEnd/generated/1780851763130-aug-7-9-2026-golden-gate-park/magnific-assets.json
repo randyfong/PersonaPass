@@ -1,0 +1,20 @@
+{
+  "provider": "magnific-mcp",
+  "status": "local_assets_created_and_ready_for_magnific_replacement",
+  "assets": [
+    {
+      "id": "hero",
+      "fileName": "hero.png",
+      "fallbackUrl": "assets/hero.svg",
+      "aspectRatio": "16:9",
+      "prompt": "Create a polished hero image for \"Aug 7–9, 2026 · Golden Gate Park\" tailored to Family. Use this source event image as visual reference: https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg. Event details: date jun 8, location ggc buy single day ggc golden gate club. Visual priorities: convenience, family value, affordability. Style: premium editorial event web page, realistic lighting, inviting composition, no text in image."
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.png",
+      "fallbackUrl": "assets/detail.svg",
+      "aspectRatio": "4:3",
+      "prompt": "Create a supporting event detail image for Family. Use this source event image as visual reference: https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg. Use cues from this event page: Outside Lands returns to Golden Gate Park August 7–9, 2026 — three days of music, food, wine, beer, art, and the festival only San Francisco delivers.. Emphasize convenience, family value, affordability. No text in image."
+    }
+  ]
+}

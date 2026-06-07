@@ -3,70 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Event User Profiler</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Customize Event</title>
+  <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
   <main class="app-shell">
-    <nav class="page-nav" aria-label="Page navigation">
-      <a class="nav-link active" href="index.html" aria-current="page">Profile</a>
-      <a class="nav-link" href="event/index.html">Event</a>
-      <a class="nav-link" href="create/index.html">Customize</a>
-    </nav>
-
     <section class="workspace" aria-labelledby="page-title">
       <div class="intro">
-        <p class="eyebrow">Profile Builder</p>
-        <h1 id="page-title">Profile</h1>
-        <p>Choose a profile type or add a short description, then review the generated profile summary.</p>
+        <p class="eyebrow">CustomBrochure</p>
+        <h1 id="page-title">Customize Event</h1>
+        <p>Build an audience profile, add the event source, and generate tailored event materials from one workspace.</p>
       </div>
 
-      <section class="saved-summary" aria-label="Saved profile summary" hidden>
-        <p class="eyebrow">Saved Summary</p>
-        <form class="summary-editor">
-          <label for="saved-summary-title">Summary Title</label>
-          <input id="saved-summary-title" type="text" value="No profile saved yet">
-
-          <label for="saved-summary-copy">Summary Text</label>
-          <textarea id="saved-summary-copy" rows="4">Generate a profile, then save it to keep the selected event user summary here.</textarea>
-        </form>
+      <section class="status-strip" aria-label="Workflow status">
+        <article class="status-step" data-status-step="profile">
+          <span class="step-number">1</span>
+          <div>
+            <p>Profile</p>
+            <strong id="profile-status">Needs profile</strong>
+          </div>
+        </article>
+        <article class="status-step" data-status-step="event">
+          <span class="step-number">2</span>
+          <div>
+            <p>Event URL</p>
+            <strong id="event-status">Needs URL</strong>
+          </div>
+        </article>
+        <article class="status-step" data-status-step="generate">
+          <span class="step-number">3</span>
+          <div>
+            <p>Generate</p>
+            <strong id="generate-status">Waiting</strong>
+          </div>
+        </article>
       </section>
 
-      <div class="mode-tabs" role="tablist" aria-label="Input methods">
-        <button class="mode-tab active" type="button" data-mode="dropdown" role="tab" aria-selected="true">Dropdown List</button>
-        <button class="mode-tab" type="button" data-mode="paragraph" role="tab" aria-selected="false">Tell in one Paragraph</button>
-      </div>
+      <div class="workflow-grid">
+        <section class="panel profile-panel" aria-labelledby="profile-panel-title">
+          <div class="section-heading">
+            <p class="eyebrow">Audience Profile</p>
+            <h2 id="profile-panel-title">Who is this for?</h2>
+          </div>
 
-      <div class="content-grid">
-        <section class="input-panel" aria-label="Input panel">
-          <form id="dropdown-panel" class="mode-panel active">
-            <label for="profile-select">Event user type</label>
-            <select id="profile-select">
-              <option value="Adult">Adult</option>
-              <option value="Child">Child</option>
-              <option value="Young Family">Young Family</option>
-              <option value="Teenager">Teenager</option>
-              <option value="Senior">Senior</option>
-              <option value="Business Traveler">Business Traveler</option>
-              <option value="Student">Student</option>
-            </select>
-            <button class="primary-action" type="submit">Generate Profile</button>
-          </form>
+          <div class="mode-tabs" role="tablist" aria-label="Profile input methods">
+            <button class="mode-tab active" type="button" data-mode="dropdown" role="tab" aria-selected="true">Dropdown List</button>
+            <button class="mode-tab" type="button" data-mode="paragraph" role="tab" aria-selected="false">Tell in one Paragraph</button>
+          </div>
 
-          <form id="paragraph-panel" class="mode-panel">
-            <label for="paragraph-input">One-paragraph description</label>
-            <textarea id="paragraph-input" rows="8" maxlength="700" placeholder="Example: A busy parent planning weekend activities for two young children while balancing budget, convenience, and safety."></textarea>
-            <div class="field-meta">
-              <span>One paragraph only</span>
-              <span id="character-count">0 / 700</span>
-            </div>
-            <button class="primary-action" type="submit">Analyze Text</button>
-          </form>
+          <div class="profile-inputs">
+            <form id="dropdown-panel" class="mode-panel active">
+              <label for="profile-select">Event user type</label>
+              <select id="profile-select">
+                <option value="Adult">Adult</option>
+                <option value="Child">Child</option>
+                <option value="Young Family">Young Family</option>
+                <option value="Teenager">Teenager</option>
+                <option value="Senior">Senior</option>
+                <option value="Business Traveler">Business Traveler</option>
+                <option value="Student">Student</option>
+              </select>
+              <button class="primary-action" type="submit">Generate Profile</button>
+            </form>
 
-        </section>
+            <form id="paragraph-panel" class="mode-panel">
+              <label for="paragraph-input">One-paragraph description</label>
+              <textarea id="paragraph-input" rows="7" maxlength="700" placeholder="Example: A busy parent planning weekend activities for two young children while balancing budget, convenience, and safety."></textarea>
+              <div class="field-meta">
+                <span>One paragraph only</span>
+                <span id="character-count">0 / 700</span>
+              </div>
+              <button class="primary-action" type="submit">Analyze Text</button>
+            </form>
+          </div>
 
-        <aside class="result-panel" aria-label="Profile result" hidden>
-          <p class="eyebrow">Generated Profile</p>
           <form id="profile-editor" class="profile-editor">
             <label for="profile-title">Profile Type</label>
             <input id="profile-title" type="text" value="Adult">
@@ -77,12 +87,51 @@
             <label for="profile-tone">Recommended Tone</label>
             <textarea id="profile-tone" rows="5">Use direct, benefit-led language with enough detail to support confident decisions. Respectful, concise, and useful.</textarea>
           </form>
-          <button id="save-profile" class="primary-action save-action" type="button">Save Profile</button>
+        </section>
+
+        <aside class="side-stack">
+          <section class="panel" aria-labelledby="event-panel-title">
+            <div class="section-heading">
+              <p class="eyebrow">Event Source</p>
+              <h2 id="event-panel-title">What event should we tailor?</h2>
+            </div>
+
+            <form id="event-form" class="event-form">
+              <label for="website-url">Event website URL</label>
+              <input id="website-url" name="website-url" type="text" inputmode="url" placeholder="https://example.com" autocomplete="url" required>
+              <button class="primary-action" type="submit">Save URL</button>
+            </form>
+            <p id="event-result" class="inline-message" aria-live="polite">Paste an event page URL to use as the source.</p>
+          </section>
+
+          <section class="panel readiness-panel" aria-labelledby="readiness-title">
+            <div class="section-heading">
+              <p class="eyebrow">Ready State</p>
+              <h2 id="readiness-title">Inputs</h2>
+            </div>
+
+            <dl class="readiness-list">
+              <div>
+                <dt>Saved Profile</dt>
+                <dd id="profile-summary" class="empty-state">Generate or edit a profile to start.</dd>
+              </div>
+              <div>
+                <dt>Saved Event URL</dt>
+                <dd id="event-url" class="empty-state">Save an event URL to continue.</dd>
+              </div>
+            </dl>
+
+            <div class="action-row" aria-label="Generation actions">
+              <button id="create-web-page" class="primary-action" type="button" disabled>Customize Web Page</button>
+              <button id="create-video" class="secondary-action" type="button" disabled>Customize Video</button>
+            </div>
+            <p id="action-message" class="inline-message" aria-live="polite">Complete the profile and event URL before generating.</p>
+          </section>
         </aside>
       </div>
     </section>
   </main>
 
-  <script src="profile/script.js"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

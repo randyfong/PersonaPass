@@ -1,0 +1,552 @@
+{
+  "profile": {
+    "title": "Family",
+    "summary": "This profile appears to describe child users. Key clues: We are a young couple from a rural town in California with two kids, age 16 and 17. We're open to new adventures but we're on a tight budget Recommended tone: Use playful, concrete language and make caregiver benefits easy to understand. Warm, simple, and encouraging."
+  },
+  "eventPage": {
+    "sourceUrl": "https://sfoutsidelands.com/",
+    "title": "Aug 7–9, 2026 · Golden Gate Park",
+    "description": "Outside Lands returns to Golden Gate Park August 7–9, 2026 — three days of music, food, wine, beer, art, and the festival only San Francisco delivers.",
+    "headings": [
+      "Get Updates",
+      "TICKETS",
+      "GA",
+      "GA+",
+      "VIP",
+      "GOLDEN GATE CLUB",
+      "SHUTTLE PASS",
+      "CITY HALL",
+      "SOMA Social Club",
+      "News"
+    ],
+    "eventInfo": {
+      "name": "Aug 7–9, 2026 · Golden Gate Park",
+      "description": "Outside Lands returns to Golden Gate Park August 7–9, 2026 — three days of music, food, wine, beer, art, and the festival only San Francisco delivers.",
+      "startDate": "Jun 8",
+      "endDate": "May 27",
+      "dates": [
+        "Jun 8",
+        "May 27",
+        "Jun 3",
+        "May 12"
+      ],
+      "displayStartDate": "Jun 8",
+      "displayEndDate": "May 27",
+      "displayDateRange": "",
+      "displayDates": [
+        "Jun 8",
+        "May 27",
+        "Jun 3",
+        "May 12"
+      ],
+      "location": "GGC BUY SINGLE DAY GGC Golden Gate Club",
+      "locations": [
+        "GGC BUY SINGLE DAY GGC Golden Gate Club",
+        "Golden Gate Club",
+        "Golden Gate Park",
+        "Civic Center Plaza"
+      ],
+      "sections": [
+        {
+          "title": "Get Updates",
+          "body": "Sign up to stay in the know! You will now receive updates! Email* *Valid Email Required Mobile Number *Valid Mobile Number Required Zip Code *Valid Zip Code Required Stay Updated By submitting this form, you agree to receive marketing promotions from Outside Lands by email and/or"
+        },
+        {
+          "title": "GA",
+          "body": "3-DAY AND SINGLE DAY GA SOLD OUT JOIN GA WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 TIER 4 WAITLIST $509 $529 $549 $569 $599 Single Day tier history TIER 1 TIER 2 $249 $269 GA Perks A diverse offering of world-class performances across 7 stages, food & beverage vendors, and"
+        },
+        {
+          "title": "GA+",
+          "body": "3-DAY AND SINGLE DAY GA+ SOLD OUT JOIN GA+ WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 WAITLIST $779 $814 $849 $899 GA+ Perks Access to all GA Amenities. Expedited entry into the festival. Exclusive GA+ lounge with upgraded restrooms, complimentary soft drinks, plus a full-s"
+        },
+        {
+          "title": "VIP",
+          "body": "3-DAY AND SINGLE DAY VIP SOLD OUT JOIN VIP WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 TIER 4 WAITLIST $1,249 $1,299 $1,349 $1,399 $1,599 VIP Perks Dedicated entrances at the North and South sides of the park. VIP viewing areas at the Lands End, Sutro and Twin Peaks stages f"
+        },
+        {
+          "title": "GOLDEN GATE CLUB",
+          "body": "IN COLLABORATION WITH KEN FULK 3-Day starting at $5,299 ALL IN ($5,095 + $204 fees) Single Day starting at $2,369 ALL IN ($2,250 + $119 fees) BUY 3-DAY GGC BUY SINGLE DAY GGC Golden Gate Club Perks Up Close and Personal: Dedicated front-of-stage viewing areas with complimentary b"
+        },
+        {
+          "title": "SHUTTLE PASS",
+          "body": "BUY NOW BEFORE PRICE INCREASES 3-Day starting at $84 ALL IN Single Day starting at $37.75 ALL IN BUY SHUTTLE PASSES 3-Day $84 ALL IN TIER 1 TIER 2 $72 $84 Single Day $37.75 ALL IN TIER 1 $37.75 Outside Lands is proud to offer a pre-paid, roundtrip shuttle service from the Bill Gr"
+        }
+      ],
+      "ticketInfo": null
+    },
+    "images": [
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage-1681405713.jpg/f1b49a672168b26bd339bb3a8ce798d9/outsidelands2021_1030_205445-8590_alivecoverage-1681405713.jpg",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/2026_logos/hamburger-menu.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/OL26_MainAdmat_030226_BG_withLandsEnd.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/ol26_mainadmat_singleday_social-web_031126_web_1280px-short.png",
+        "source": "img",
+        "alt": "lineup",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/OL26_Admat_FPO_ForWebTeam_Foreground.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/2026_icons/park_grungy_spot_halftone.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/BubblegumGrungySpotHalftone.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/outsidelands2023_0812_140209-4072_alivecoverage-%282%29.jpg/446ee566d002caceb8ae6fc228dc2fa9/outsidelands2023_0812_140209-4072_alivecoverage-%282%29.webp",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/chaseppp-sand-25-1740047409.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "primaryImage": {
+      "url": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg",
+      "source": "og:image",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "placeholder": false,
+      "score": 56
+    },
+    "keywords": [
+      "lands",
+      "tier",
+      "festival",
+      "outside",
+      "club",
+      "learn",
+      "waitlist",
+      "access",
+      "dedicated",
+      "required",
+      "single",
+      "food",
+      "gate",
+      "golden"
+    ],
+    "text": "Home | Outside Lands Music Festival --> Skip to main content { document.body.style.overflow = value ? 'hidden' : '' }); window.addEventListener('scroll', () => { scrolled = window.scrollY > 10 }); \" class=\"sticky top-0 z-[100]\" x-cloak > JOIN WAITLIST JOIN WAITLIST { if (value) { $el.classList.add('translate-x-[600px]', 'opacity-0'); $nextTick(() => { requestAnimationFrame(() => { $el.classList.remove('translate-x-[600px]', 'opacity-0'); }); }); } else { $el.classList.add('translate-x-[600px]', 'opacity-0'); } }); \" class=\"mt-9 flex flex-col flex-1 justify-around min-h-0 transition-all duration-500 ease-out delay-150 translate-x-[600px] opacity-0 relative z-20\" > JOIN WAITLIST Home Tickets Lineup Experiences News Info Festival History Merch Sustainability Get Involved { this.showBlock = false }, 1500); } } }\" x-init=\" if (window.location.pathname === '/' && !localStorage.getItem('newsletterSubmitted')) { showBlock = true; } \" :class=\"{ 'hidden': !showBlock, 'flex': showBlock }\" class=\"hidden fixed inset-0 z-[200] items-center justify-center bg-black bg-opacity-50\" > X Get Updates Sign up to stay in the know! You will now receive updates! Email* *Valid Email Required Mobile Number *Valid Mobile Number Required Zip Code *Valid Zip Code Required Stay Updated By submitting this form, you agree to receive marketing promotions from Outside Lands by email and/or by SMS on your mobile phone. Reply STOP to unsubscribe from future SMS messaging. Message and data rates may apply. Privacy Policy + Terms & Conditions --> SOLD OUT - JOIN WAITLIST JOIN WAITLIST CLASS OF 2026 SEE YOU IN THE PARK TICKETS GA 3-DAY AND SINGLE DAY GA SOLD OUT JOIN GA WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 TIER 4 WAITLIST $509 $529 $549 $569 $599 Single Day tier history TIER 1 TIER 2 $249 $269 GA Perks A diverse offering of world-class performances across 7 stages, food & beverage vendors, and one-of-a-kind experiences to explore. LEARN MORE GA+ 3-DAY AND SINGLE DAY GA+ SOLD OUT JOIN GA+ WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 WAITLIST $779 $814 $849 $899 GA+ Perks Access to all GA Amenities. Expedited entry into the festival. Exclusive GA+ lounge with upgraded restrooms, complimentary soft drinks, plus a full-service bar and food for purchase. Dedicated team to assist with your needs and answer questions at the festival. Access to GA+ lockers for rent. LEARN MORE VIP 3-DAY AND SINGLE DAY VIP SOLD OUT JOIN VIP WAITLIST 3-Day tier history TIER 1 TIER 2 TIER 3 TIER 4 WAITLIST $1,249 $1,299 $1,349 $1,399 $1,599 VIP Perks Dedicated entrances at the North and South sides of the park. VIP viewing areas at the Lands End, Sutro and Twin Peaks stages featuring dedicated VIP bars. Please note - access to Sutro VIP is subject to capacity limits. Access to a VIP courtyard lounge near the Lands End stage, featuring exclusive food vendors, premium bars, upgraded restrooms and more. Dedicated team to assist with your needs and answer questions at the festival. Commemorative festival poster. Access to dedicated merch store. Access to VIP lockers for rent. LEARN MORE GOLDEN GATE CLUB IN COLLABORATION WITH KEN FULK 3-Day starting at $5,299 ALL IN ($5,095 + $204 fees) Single Day starting at $2,369 ALL IN ($2,250 + $119 fees) BUY 3-DAY GGC BUY SINGLE DAY GGC Golden Gate Club Perks Up Close and Personal: Dedicated front-of-stage viewing areas with complimentary beverages at the 3 main stages (Lands End, Twin Peaks, and Sutro). Mr. Fulk’s Wild Ride: Travel in comfort, safety and style across the festival via our exclusive Golden Gate Club Stage to Stage Golf Cart Fleet. Feast and Imbibe: Complimentary all-day food and drink curated by the Bay Area's most celebrated culinary, cocktail, beer, and wine talents featuring Tyler Florence of Miller & Lux, Dana Younkin and Nancy Oakes of Boulevard, and James Beard Award finalist Melissa King. Skydeck Parlor at Lands End: Watch festival headliners from high above the crowd in a space created by AD100 Designer Ken Fulk. Dedicated Entrance: Come and go easily throughout the day using your own lane at the VIP Entrance. Personal Concierge Service: Dedicated concierge team to maximize your Outside Lands experience, including securing your optimal transportation plans. Coat Check, Charging Stations, Wi-Fi, Premium Air-Conditioned Restrooms, and Exclusive Festival Gift: Let us take care of the details while you enjoy the show in comfort. Night Show Access: Keep the party going with exclusive presale access to all Outside Lands Night Shows. LEARN MORE SHUTTLE PASS BUY NOW BEFORE PRICE INCREASES 3-Day starting at $84 ALL IN Single Day starting at $37.75 ALL IN BUY SHUTTLE PASSES 3-Day $84 ALL IN TIER 1 TIER 2 $72 $84 Single Day $37.75 ALL IN TIER 1 $37.75 Outside Lands is proud to offer a pre-paid, roundtrip shuttle service from the Bill Graham Civic Auditorium in the heart of San Francisco to the south entrance of Outside Lands in Golden Gate Park. The shuttles are coach-style buses that offer a comfortable ride to and from the festival each day. Shuttles begin running each day at 11 AM and run continuously all day with limited coverage from 5-8 PM. The last shuttle to the festival leaves Bill Graham Civic Auditorium at 8pm. Return shuttles run until one hour after the music ends each night. The Bill Graham Civic Auditorium is located next to Civic Center Plaza, near BART, MUNI, and Caltrain stops. We suggest taking public transportation to the Bill Graham Civic Auditorium, as parking is not included in the price of your shuttle pass. If you do drive, parking may be available in the Civic Center Parking Garage adjacent to the Bill Graham Civic for a fee. The garage entrance is located at McAllister Street between Polk Street and Larkin Street. CITY HALL Starting at starting at $449 ALL IN ($434 + $15 fees) TIE THE KNOT MORE INFO Love is in the air at Outside Lands! Host your wedding or recommitment ceremony during the festival weekend in a one-of-a-kind setting and leave the planning to us. City Hall Package Options Lands End Ceremony Package The Mission Ceremony Package SOMA Social Club Experience the SOMA stage in style at the new SOMA Social Club , a premium VIP table experience available for purchase. Each package includes 10 Single Day SOMA Social Club passes (your festival admission) and a reserved lounge for you and 9 friends for one day of your choice. Enjoy unbeatable stage views, premium bottle service, complimentary food, dedicated staff, exclusive restrooms, elevated amenities, golf cart transportation between SOMA and Lands End VIP, concierge service, and access to VIP lounges and viewing areas across the festival. * Your SOMA Social Club passes are your tickets for entry — no additional admission required. Must be 21+. Limited spots available. EXPLORE SOMA SOCIAL CLUB News Jun 8 Embrace The Haze with Sierra Nevada Enter for a chance to win 2 VIP Passes Learn More May 27 Reserve Your Locker Now! Secure your locker and your belongings all weekend long Learn More Jun 3 Shore Club x White Claw Check Out the Shore Club x White Claw Learn More May 12 Welcome Back, Taste of the Bay Area Dishing up specialties from 100 restaurants Learn More May 12 Drink Up the Cocktail Magic, Wine Lands and Beer Lands Lineups 6 cocktail bars, 26 wineries, and 20+ breweries Learn More May 12 Exclusive Bites and Elevated Hospitality at The Golden Gate Club Meet this year’s internationally-renowned chef lineup Learn More May 12 Teremana Tequila Brings the Good Energy Share the Mana, Cocktails, & Connection Learn More May 13 The Trailhead Bar by Athletic Brewing Don’t Miss a Beat Learn More \" aria-label=\"Next Slide\" > Outside Lands is HIGHLIGHTS \"Looking around at the park’s breathtaking surroundings and otherworldly beauty, it’s hard not to feel like you’ve entered a different universe when arriving at Outside Lands.\" - Consequence \"Outside Lands continues to effortlessly raise the bar for its competitors–and we can’t wait to go back next year.\" - Under The Radar \"There is no better venue for a music festival of this scale anywhere in America… The park’s sweeping greenery and cypress-covered meadows are impeccable. It’s a total treat to get to play within the privileged chaos of OSL.\" - Paste Magazine “Outside Lands is famed for its diverse and carefully curated lineups.” - Outfront Magazine “San Francisco’s Outside Lands stands as the leading and first example of a music festival reaching for world-class heights with its food and beverage program.” - Paste Magazine \"Outside Lands has thrived by constantly reinventing itself and capitalizing on San Francisco’s strengths, such as a low-stress vibe and high-quality food.\" - Wall Street Journal \" > test Get Updates Stay in the know! Sign up for our newsletter & text notifications here. Yes, sign me up to be first to know about lineups, tickets, schedules, and other festival updates. By submitting this form, you agree to receive marketing promotions from Outside Lands by email and/or by SMS on your mobile phone. Reply STOP to unsubscribe from future SMS messaging. Message and data rates may apply. Outside Lands Privacy Policy + Outside Lands Terms & Conditions | Laylo Privacy + Laylo Terms You will now receive updates! Mobile Number* *Valid Mobile Number Required Email* *Valid Email Required First Name* *First Name Required Last Name* *Last Name Required Postal Code *Valid Postal Code Required STAY UPDATED SEE Y o U IN THE P a RK! THANK YOU TO OUR PARTNERS THANK YOU TO OUR PARTNERS THANK YOU TO OUR PARTNERS THANK YOU TO OUR PARTNERS THANK YOU TO OUR PARTNERS THANK YOU TO OUR PARTNERS Tickets Experiences Info Merch Festival History News Neighborhoods Park Attractions Get Involved Ranger Handbook Accessibility Contact Press Partners Stay in the know Terms & Conditions Privacy Policy © 2026 Outside Lands. All rights reserved",
+    "ticketResearch": {
+      "searched": true,
+      "query": "Aug 7–9, 2026 · Golden Gate Park GGC BUY SINGLE DAY GGC Golden Gate Club tickets price admission sfoutsidelands.com",
+      "found": false,
+      "resultsChecked": 3
+    }
+  },
+  "comparison": {
+    "profileKeywords": [
+      "adventures",
+      "appears",
+      "benefits",
+      "budget",
+      "california",
+      "caregiver",
+      "child",
+      "clues",
+      "concrete",
+      "couple",
+      "describe",
+      "easy"
+    ],
+    "eventKeywords": [
+      "lands",
+      "tier",
+      "festival",
+      "outside",
+      "club",
+      "learn",
+      "waitlist",
+      "access",
+      "dedicated",
+      "required",
+      "single",
+      "food",
+      "gate",
+      "golden"
+    ],
+    "overlap": [],
+    "profileSignals": [
+      {
+        "label": "family value",
+        "score": 4,
+        "evidence": [
+          "family",
+          "kids",
+          "child",
+          "caregiver"
+        ]
+      },
+      {
+        "label": "convenience",
+        "score": 2,
+        "evidence": [
+          "easy",
+          "simple"
+        ]
+      },
+      {
+        "label": "affordability",
+        "score": 1,
+        "evidence": [
+          "budget"
+        ]
+      }
+    ],
+    "eventSignals": [
+      {
+        "label": "social energy",
+        "score": 8,
+        "evidence": [
+          "friends",
+          "music",
+          "party",
+          "social",
+          "festival",
+          "beer",
+          "drink",
+          "drinks"
+        ]
+      },
+      {
+        "label": "comfort",
+        "score": 4,
+        "evidence": [
+          "comfortable",
+          "comfort",
+          "accessibility",
+          "transportation"
+        ]
+      },
+      {
+        "label": "convenience",
+        "score": 3,
+        "evidence": [
+          "parking",
+          "access",
+          "accessibility"
+        ]
+      },
+      {
+        "label": "affordability",
+        "score": 2,
+        "evidence": [
+          "included",
+          "value"
+        ]
+      },
+      {
+        "label": "learning",
+        "score": 2,
+        "evidence": [
+          "learn",
+          "class"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 1,
+        "evidence": [
+          "safety"
+        ]
+      },
+      {
+        "label": "networking",
+        "score": 1,
+        "evidence": [
+          "meet"
+        ]
+      }
+    ],
+    "matchedSignals": [
+      {
+        "label": "convenience",
+        "score": 5,
+        "profileEvidence": [
+          "easy",
+          "simple"
+        ],
+        "eventEvidence": [
+          "parking",
+          "access",
+          "accessibility"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 5,
+        "profileEvidence": [
+          "family",
+          "kids",
+          "child",
+          "caregiver"
+        ],
+        "eventEvidence": [
+          "safety"
+        ]
+      },
+      {
+        "label": "affordability",
+        "score": 3,
+        "profileEvidence": [
+          "budget"
+        ],
+        "eventEvidence": [
+          "included",
+          "value"
+        ]
+      }
+    ],
+    "unmetSignals": [],
+    "ageCompatibility": {
+      "profileAgeGroup": "child",
+      "profileAges": [
+        16,
+        17
+      ],
+      "eventMinimumAge": null,
+      "status": "caution",
+      "scoreAdjustment": -25,
+      "maxScore": 55,
+      "adultFriendlyEvent": true,
+      "evidence": [
+        "no clear child or family age guidance"
+      ]
+    },
+    "interests": [
+      "convenience",
+      "family value",
+      "affordability"
+    ],
+    "rawScore": 72,
+    "unmetNeedPenalty": 0,
+    "ageScoreAdjustment": -25,
+    "spendReadyPremiumFit": false,
+    "spendReadyScoreBonus": 0,
+    "ageScoreCap": 55,
+    "scoreFloor": 0,
+    "uncappedScore": 47,
+    "score": 47
+  },
+  "pageModel": {
+    "eventName": "Aug 7–9, 2026 · Golden Gate Park",
+    "audience": "Family",
+    "headline": "Aug 7–9, 2026 · Golden Gate Park",
+    "subheadline": "Outside Lands returns to Golden Gate Park August 7–9, 2026 — three days of music, food, wine, beer, art, and the festival only San Francisco delivers.",
+    "callToAction": "Plan My Visit",
+    "proofPoint": "47% fit after subtracting 25 points for age caution from 3 matched interest categories found in both the saved profile and event page.",
+    "eventDetails": [
+      "Date: Jun 8",
+      "Location: GGC BUY SINGLE DAY GGC Golden Gate Club"
+    ],
+    "visitorGuide": {
+      "title": "What to Know",
+      "opener": "Aug 7–9, 2026 · Golden Gate Park may be a good match if you are looking for convenience, family value, and affordability.",
+      "reasons": [
+        "The category chips are shown only when saved-profile cues and event-page cues both support them: convenience matched profile cues (easy and simple) with event cues (parking and access), family value matched profile cues (family and kids) with event cues (safety), and affordability matched profile cues (budget) with event cues (included and value).",
+        "The event page also highlights convenience, family value, and affordability, which can help you quickly understand what kind of experience to expect.",
+        "You are looking for clear value and a manageable cost and family-friendly logistics. This event is worth comparing because the page surfaces details you can check against those priorities before deciding.",
+        "The event takes place at GGC BUY SINGLE DAY GGC Golden Gate Club, so you can check travel time, parking, and nearby transit before deciding."
+      ],
+      "notes": [
+        "The scheduled time is Jun 8. Check whether the duration and arrival timing work for your day.",
+        "Look for practical details such as cost, accessibility, comfort, what to bring, and how active participation will be.",
+        "The source images give a sense of the atmosphere, but the event page is still the best place to confirm final details."
+      ],
+      "close": "Use this page as a quick guide to decide whether Aug 7–9, 2026 · Golden Gate Park fits your interests, schedule, and comfort level."
+    },
+    "sourceImage": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg",
+    "sourceImages": [
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage.jpg/d6bb88c7cb5d27e726d603c4e9ba6d74/outsidelands2021_1030_205445-8590_alivecoverage.jpg",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/images/outsidelands2021_1030_205445-8590_alivecoverage-1681405713.jpg/f1b49a672168b26bd339bb3a8ce798d9/outsidelands2021_1030_205445-8590_alivecoverage-1681405713.jpg",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/2026_logos/hamburger-menu.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/OL26_MainAdmat_030226_BG_withLandsEnd.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/ol26_mainadmat_singleday_social-web_031126_web_1280px-short.png",
+        "source": "img",
+        "alt": "lineup",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/OL26_Admat_FPO_ForWebTeam_Foreground.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/2026_icons/park_grungy_spot_halftone.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/BubblegumGrungySpotHalftone.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/img/containers/assets/outsidelands2023_0812_140209-4072_alivecoverage-%282%29.jpg/446ee566d002caceb8ae6fc228dc2fa9/outsidelands2023_0812_140209-4072_alivecoverage-%282%29.webp",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      },
+      {
+        "url": "https://sfoutsidelands.com/assets/chaseppp-sand-25-1740047409.png",
+        "source": "img",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "sections": [
+      {
+        "title": "Why this may fit you",
+        "body": "Aug 7–9, 2026 · Golden Gate Park is a cautious 47% fit for Family: the profile asks for caregiver reassurance, simple logistics, and age-appropriate fit, while the source points to accessibility, convenience, and family value. Treat it as promising only if the practical notes work for your child."
+      },
+      {
+        "title": "Plan your visit",
+        "body": "The event is scheduled for Jun 8. It takes place at GGC BUY SINGLE DAY GGC Golden Gate Club. Check travel time, accessibility, seating, and arrival needs before you go."
+      },
+      {
+        "title": "Good to know",
+        "body": "Access: Contact Press Partners Stay in the know Terms & Conditions Privacy Policy © 2026 Outside Lands. All rights reserved."
+      }
+    ],
+    "highlights": [
+      "convenience",
+      "family value",
+      "affordability"
+    ]
+  },
+  "digitalAssets": [
+    {
+      "id": "hero",
+      "fileName": "hero.svg",
+      "relativeUrl": "assets/hero.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1600\" height=\"900\" viewBox=\"0 0 1600 900\" role=\"img\" aria-label=\"Aug 7–9, 2026 · Golden Gate Park\">\n  <defs>\n    <linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#0f6b56\"/>\n      <stop offset=\"0.58\" stop-color=\"#26766a\"/>\n      <stop offset=\"1\" stop-color=\"#b35f37\"/>\n    </linearGradient>\n    <radialGradient id=\"light\" cx=\"68%\" cy=\"22%\" r=\"62%\">\n      <stop offset=\"0\" stop-color=\"#ffe7b8\" stop-opacity=\"0.86\"/>\n      <stop offset=\"1\" stop-color=\"#ffe7b8\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <filter id=\"shadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n      <feDropShadow dx=\"0\" dy=\"18\" stdDeviation=\"22\" flood-color=\"#0d3029\" flood-opacity=\"0.24\"/>\n    </filter>\n  </defs>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#sky)\"/>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#light)\"/>\n  <path d=\"M0 628 C210 526 346 690 557 598 C755 512 832 328 1078 393 C1297 450 1392 544 1600 442 L1600 900 L0 900 Z\" fill=\"#f7f1e7\" opacity=\"0.92\"/>\n  <path d=\"M1020 182 C1128 116 1278 135 1376 232 C1476 332 1492 483 1417 590 C1337 704 1169 722 1045 643 C914 560 882 369 963 245 C978 222 995 201 1020 182 Z\" fill=\"#fff8ec\" opacity=\"0.92\" filter=\"url(#shadow)\"/>\n  <circle cx=\"1206\" cy=\"394\" r=\"156\" fill=\"#e7f2ee\"/>\n  <path d=\"M1091 435 C1140 365 1192 334 1255 340 C1320 348 1371 398 1395 474 C1346 525 1285 550 1212 548 C1149 546 1102 507 1091 435 Z\" fill=\"#126853\"/>\n  <path d=\"M1130 430 C1169 392 1210 376 1255 382 C1304 388 1340 421 1358 471 C1316 498 1272 511 1225 508 C1182 504 1147 478 1130 430 Z\" fill=\"#f0b66d\"/>\n  <g transform=\"translate(96 160)\">\n<text x=\"0\" y=\"86\" fill=\"#ffffff\" font-size=\"86\" font-weight=\"800\">Aug 7–9, 2026 · Golden</text>\n<text x=\"0\" y=\"184.89999999999998\" fill=\"#ffffff\" font-size=\"86\" font-weight=\"800\">Gate Park</text>\n<text x=\"4\" y=\"368\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Outside Lands returns to Golden Gate Park August 7–9,</text>\n<text x=\"4\" y=\"409.85\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">2026 — three days of music, food, wine, beer, art, and</text>\n<text x=\"4\" y=\"451.7\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">the festival only San Francisco delivers.</text>\n  </g>\n  <g transform=\"translate(100 710)\">\n    <g transform=\"translate(0 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">convenience</text>\n    </g>\n<g transform=\"translate(250 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">family value</text>\n    </g>\n<g transform=\"translate(500 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">affordability</text>\n    </g>\n  </g>\n  <g transform=\"translate(1020 675)\">\n    <text x=\"0\" y=\"0\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Date: Jun 8</text>\n<text x=\"0\" y=\"34\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Location: GGC BUY SINGLE DAY GGC Golden Gate Club</text>\n  </g>\n</svg>"
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.svg",
+      "relativeUrl": "assets/detail.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1800\" height=\"900\" viewBox=\"0 0 1800 900\" role=\"img\" aria-label=\"Profile and event fit summary\">\n  <rect width=\"1800\" height=\"900\" fill=\"#fbfaf7\"/>\n  <rect x=\"70\" y=\"60\" width=\"1660\" height=\"780\" rx=\"28\" fill=\"#ffffff\" stroke=\"#d7ded7\" stroke-width=\"4\"/>\n  <text x=\"130\" y=\"132\" fill=\"#126853\" font-size=\"32\" font-weight=\"900\">TAILORED EVENT GUIDE</text>\n  <text x=\"130\" y=\"214\" fill=\"#17201c\" font-size=\"82\" font-weight=\"900\">Family</text>\n  <g transform=\"translate(1510 94)\">\n    <circle cx=\"82\" cy=\"82\" r=\"82\" fill=\"#eaf3ef\"/>\n    <circle cx=\"82\" cy=\"82\" r=\"60\" fill=\"#126853\"/>\n    <text x=\"82\" y=\"89\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"42\" font-weight=\"900\">47%</text>\n    <text x=\"82\" y=\"132\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"18\" font-weight=\"800\">FIT</text>\n  </g>\n  <g transform=\"translate(130 316)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">1</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Why this may fit you</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Aug 7–9, 2026 · Golden Gate Park is a cautious 47% fit for Family: the profile asks for caregiver</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">reassurance, simple logistics, and age-appropriate fit, while the source points to accessibility,</text>\n<text x=\"110\" y=\"101\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">convenience, and family value. Treat it as promising only if the practical notes work for your child.</text>\n    </g>\n<g transform=\"translate(130 494)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">2</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Plan your visit</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">The event is scheduled for Jun 8. It takes place at GGC BUY SINGLE DAY GGC Golden Gate Club. Check</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">travel time, accessibility, seating, and arrival needs before you go.</text>\n    </g>\n<g transform=\"translate(130 672)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">3</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Good to know</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Access: Contact Press Partners Stay in the know Terms &amp; Conditions Privacy Policy © 2026 Outside</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Lands. All rights reserved.</text>\n    </g>\n  <path d=\"M1512 760 C1560 716 1625 710 1676 746 C1628 796 1564 819 1480 812 C1483 791 1493 774 1512 760 Z\" fill=\"#126853\"/>\n</svg>"
+    }
+  ]
+}

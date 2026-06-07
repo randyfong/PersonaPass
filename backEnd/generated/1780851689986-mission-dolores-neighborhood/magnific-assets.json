@@ -1,0 +1,20 @@
+{
+  "provider": "magnific-mcp",
+  "status": "local_assets_created_and_ready_for_magnific_replacement",
+  "assets": [
+    {
+      "id": "hero",
+      "fileName": "hero.png",
+      "fallbackUrl": "assets/hero.svg",
+      "aspectRatio": "16:9",
+      "prompt": "Create a polished hero image for \"Mission Dolores Neighborhood\" tailored to Family. Use this source event image as visual reference: https://sfcityguides.org/wp-content/uploads/2019/06/Mission_Dolores_Header2a.jpg. Event details: date sunday, may 31, 2026, 10:30 am - 10:30 am, location dolores park. Visual priorities: welcoming event details. Style: premium editorial event web page, realistic lighting, inviting composition, no text in image."
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.png",
+      "fallbackUrl": "assets/detail.svg",
+      "aspectRatio": "4:3",
+      "prompt": "Create a supporting event detail image for Family. Use this source event image as visual reference: https://sfcityguides.org/wp-content/uploads/2019/06/Mission_Dolores_Header2a.jpg. Use cues from this event page: 600,No Tour Today. Emphasize clarity, value, and ease. No text in image."
+    }
+  ]
+}

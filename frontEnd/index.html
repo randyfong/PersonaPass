@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Persona Pass</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <main class="app-shell">
@@ -45,29 +45,10 @@
             <h2 id="profile-panel-title">Who is going?</h2>
           </div>
 
-          <div class="mode-tabs" role="tablist" aria-label="Persona input methods">
-            <button class="mode-tab active" type="button" data-mode="dropdown" role="tab" aria-selected="true">Choose Type</button>
-            <button class="mode-tab" type="button" data-mode="paragraph" role="tab" aria-selected="false">Describe Them</button>
-          </div>
-
           <div class="profile-inputs">
-            <form id="dropdown-panel" class="mode-panel active">
-              <label for="profile-select">Persona type</label>
-              <select id="profile-select">
-                <option value="Adult">Adult</option>
-                <option value="Child">Child</option>
-                <option value="Young Family">Young Family</option>
-                <option value="Teenager">Teenager</option>
-                <option value="Senior">Senior</option>
-                <option value="Business Traveler">Business Traveler</option>
-                <option value="Student">Student</option>
-              </select>
-              <button class="primary-action" type="submit">Use Persona</button>
-            </form>
-
-            <form id="paragraph-panel" class="mode-panel">
-              <label for="paragraph-input">Short description</label>
-              <textarea id="paragraph-input" rows="7" maxlength="700" placeholder="Example: A parent looking for a fun, affordable weekend outing with two young kids."></textarea>
+            <form id="paragraph-panel" class="persona-form">
+              <label for="paragraph-input">Describe the target profile</label>
+              <textarea id="paragraph-input" rows="7" maxlength="700" placeholder="Example: A parent looking for a fun, affordable weekend outing with two young kids." required></textarea>
               <div class="field-meta">
                 <span>One short paragraph</span>
                 <span id="character-count">0 / 700</span>
@@ -78,13 +59,13 @@
 
           <form id="profile-editor" class="profile-editor">
             <label for="profile-title">Persona name</label>
-            <input id="profile-title" type="text" value="Adult">
+            <input id="profile-title" type="text" value="Custom Persona">
 
             <label for="profile-needs">What matters to them</label>
-            <textarea id="profile-needs" rows="4">Efficiency, clear value, convenience, and practical benefits.</textarea>
+            <textarea id="profile-needs" rows="4">Describe the persona above to build this.</textarea>
 
             <label for="profile-tone">How to speak to them</label>
-            <textarea id="profile-tone" rows="5">Use direct, benefit-led language with enough detail to support confident decisions. Respectful, concise, and useful.</textarea>
+            <textarea id="profile-tone" rows="5">Tone guidance will appear after you build a persona.</textarea>
           </form>
         </section>
 
@@ -131,6 +112,6 @@
     </section>
   </main>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

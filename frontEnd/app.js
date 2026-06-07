@@ -51,10 +51,6 @@ const textSignals = [
   { pattern: /adult|professional|career|homeowner|commute/i, profile: "Adult" }
 ];
 
-const modeTabs = document.querySelectorAll(".mode-tab");
-const modePanels = document.querySelectorAll(".mode-panel");
-const dropdownForm = document.querySelector("#dropdown-panel");
-const profileSelect = document.querySelector("#profile-select");
 const paragraphForm = document.querySelector("#paragraph-panel");
 const paragraphInput = document.querySelector("#paragraph-input");
 const characterCount = document.querySelector("#character-count");
@@ -84,9 +80,9 @@ const statusSteps = {
 };
 
 let currentProfile = {
-  title: "Adult",
-  needs: profileLibrary.Adult.needs,
-  tone: getRecommendedTone(profileLibrary.Adult)
+  title: "Custom Persona",
+  needs: "Describe the persona above to build this.",
+  tone: "Tone guidance will appear after you build a persona."
 };
 
 function escapeHtml(value) {
@@ -133,18 +129,6 @@ function setStepState(step, isComplete) {
   statusSteps[step].classList.toggle("complete", isComplete);
 }
 
-function setMode(mode) {
-  modeTabs.forEach((tab) => {
-    const isActive = tab.dataset.mode === mode;
-    tab.classList.toggle("active", isActive);
-    tab.setAttribute("aria-selected", String(isActive));
-  });
-
-  modePanels.forEach((panel) => {
-    panel.classList.toggle("active", panel.id === `${mode}-panel`);
-  });
-}
-
 function renderCurrentProfile() {
   profileTitle.value = currentProfile.title;
   profileNeeds.value = currentProfile.needs;
@@ -181,6 +165,10 @@ function inferProfile(text) {
 }
 
 function summarizeFreeform(text) {
+  if (!text.trim()) {
+    return;
+  }
+
   const profileName = inferProfile(text);
   const trimmed = text.trim().replace(/\s+/g, " ");
   const detail = trimmed
@@ -433,15 +421,6 @@ async function createVideo() {
     renderSavedInputs();
   }
 }
-
-modeTabs.forEach((tab) => {
-  tab.addEventListener("click", () => setMode(tab.dataset.mode));
-});
-
-dropdownForm.addEventListener("submit", (event) => {
-  event.preventDefault();
-  updateProfile(profileSelect.value);
-});
 
 paragraphInput.addEventListener("input", () => {
   const singleParagraph = paragraphInput.value.replace(/\n{2,}/g, "\n").replace(/\n/g, " ");

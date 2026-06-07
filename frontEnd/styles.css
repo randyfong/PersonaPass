@@ -182,43 +182,12 @@ h2 {
   gap: 2px;
 }
 
-.mode-tabs {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  padding: 6px;
-  width: fit-content;
-  max-width: 100%;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
-}
-
-.mode-tab {
-  min-height: 42px;
-  padding: 0 16px;
-  border: 0;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--muted);
-  font-weight: 700;
-}
-
-.mode-tab.active {
-  color: #ffffff;
-  background: var(--accent);
-}
-
 .profile-inputs {
   padding-bottom: 20px;
   border-bottom: 1px solid var(--line);
 }
 
-.mode-panel {
-  display: none;
-}
-
-.mode-panel.active,
+.persona-form,
 .profile-editor,
 .event-form {
   display: grid;
@@ -395,14 +364,6 @@ button:focus-visible {
 
   .panel {
     padding: 18px;
-  }
-
-  .mode-tabs {
-    width: 100%;
-  }
-
-  .mode-tab {
-    flex: 1 1 150px;
   }
 
   .primary-action,

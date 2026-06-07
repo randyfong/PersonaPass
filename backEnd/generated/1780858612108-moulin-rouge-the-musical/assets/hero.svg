@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="Moulin Rouge! The Musical">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f6b56"/>
+      <stop offset="0.58" stop-color="#26766a"/>
+      <stop offset="1" stop-color="#b35f37"/>
+    </linearGradient>
+    <radialGradient id="light" cx="68%" cy="22%" r="62%">
+      <stop offset="0" stop-color="#ffe7b8" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#ffe7b8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0d3029" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#light)"/>
+  <path d="M0 628 C210 526 346 690 557 598 C755 512 832 328 1078 393 C1297 450 1392 544 1600 442 L1600 900 L0 900 Z" fill="#f7f1e7" opacity="0.92"/>
+  <path d="M1020 182 C1128 116 1278 135 1376 232 C1476 332 1492 483 1417 590 C1337 704 1169 722 1045 643 C914 560 882 369 963 245 C978 222 995 201 1020 182 Z" fill="#fff8ec" opacity="0.92" filter="url(#shadow)"/>
+  <circle cx="1206" cy="394" r="156" fill="#e7f2ee"/>
+  <path d="M1091 435 C1140 365 1192 334 1255 340 C1320 348 1371 398 1395 474 C1346 525 1285 550 1212 548 C1149 546 1102 507 1091 435 Z" fill="#126853"/>
+  <path d="M1130 430 C1169 392 1210 376 1255 382 C1304 388 1340 421 1358 471 C1316 498 1272 511 1225 508 C1182 504 1147 478 1130 430 Z" fill="#f0b66d"/>
+  <g transform="translate(96 160)">
+<text x="0" y="86" fill="#ffffff" font-size="86" font-weight="800">Moulin Rouge! The Musical</text>
+<text x="4" y="368" fill="#ffffff" font-size="31" font-weight="600">Get official tickets to Moulin Rouge! The Musical on</text>
+<text x="4" y="409.85" fill="#ffffff" font-size="31" font-weight="600">Broadway at the Al Hirschfeld Theatre from the trusted</text>
+<text x="4" y="451.7" fill="#ffffff" font-size="31" font-weight="600">Broadway.com source for Broadway show info, tickets,</text>
+  </g>
+  <g transform="translate(100 710)">
+    <g transform="translate(0 0)">
+      <rect x="0" y="0" width="222" height="54" rx="12" fill="#ffffff" opacity="0.95"/>
+      <text x="18" y="35" fill="#126853" font-size="22" font-weight="900">convenience</text>
+    </g>
+<g transform="translate(250 0)">
+      <rect x="0" y="0" width="222" height="54" rx="12" fill="#ffffff" opacity="0.95"/>
+      <text x="18" y="35" fill="#126853" font-size="22" font-weight="900">social energy</text>
+    </g>
+  </g>
+  <g transform="translate(1020 675)">
+    <text x="0" y="0" fill="#126853" font-size="25" font-weight="900">Date: Sun Jun 7</text>
+<text x="0" y="34" fill="#126853" font-size="25" font-weight="900">Location: Al Hirschfeld Theatre</text>
+<text x="0" y="68" fill="#126853" font-size="25" font-weight="900">Ticket price: $67</text>
+  </g>
+</svg>

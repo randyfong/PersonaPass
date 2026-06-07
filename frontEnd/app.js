@@ -134,6 +134,10 @@ function renderCurrentProfile() {
   profileTone.value = currentProfile.tone;
 }
 
+function clearActionMessagePreserve() {
+  delete actionMessage.dataset.preserve;
+}
+
 function syncEditedProfile() {
   currentProfile = {
     title: profileTitle.value.trim() || "Custom Profile",
@@ -143,6 +147,7 @@ function syncEditedProfile() {
 }
 
 function persistCurrentProfile() {
+  clearActionMessagePreserve();
   localStorage.setItem("profileSummary", JSON.stringify(getProfileSummary()));
   renderSavedInputs();
 }
@@ -306,6 +311,7 @@ function normalizeUrl(value) {
 
 function saveEventUrl(value, showResult = false) {
   const url = normalizeUrl(value);
+  clearActionMessagePreserve();
   websiteUrlInput.value = url.href;
   localStorage.setItem("eventUrl", url.href);
   localStorage.setItem("eventUrlUpdatedAt", new Date().toISOString());
@@ -406,18 +412,23 @@ function renderSavedInputs() {
   createWebPageButton.disabled = !isReady;
   generateStatus.textContent = isReady ? "Ready" : "Waiting";
   setStepState("generate", isReady);
-  actionMessage.textContent = isReady
-    ? "Ready to create."
-    : "Add both items to start.";
+
+  if (!actionMessage.dataset.preserve) {
+    actionMessage.textContent = isReady
+      ? "Ready to create."
+      : "Add both items to start.";
+  }
 }
 
 async function createWebPage() {
   let savedInputs;
   let resultTab = null;
+  let shouldPreserveActionMessage = false;
 
   try {
     savedInputs = getSavedInputs();
   } catch (error) {
+    actionMessage.dataset.preserve = "true";
     actionMessage.textContent = "This persona could not be loaded. Please choose it again.";
     return;
   }
@@ -429,6 +440,7 @@ async function createWebPage() {
 
   createWebPageButton.disabled = true;
   createWebPageButton.textContent = "Creating...";
+  delete actionMessage.dataset.preserve;
   actionMessage.textContent = "Creating your page...";
   resultTab = window.open("about:blank", "_blank");
 
@@ -455,18 +467,28 @@ async function createWebPage() {
     const resultUrl = `http://localhost:3001${result.page.url}`;
     if (resultTab) {
       resultTab.location.href = resultUrl;
+      actionMessage.textContent = "Page created.";
+    } else {
+      actionMessage.innerHTML = `Page created. <a href="${escapeHtml(resultUrl)}" target="_blank" rel="noopener noreferrer">Open it here</a>.`;
     }
-    actionMessage.textContent = "Page created.";
+    actionMessage.dataset.preserve = "true";
+    shouldPreserveActionMessage = true;
   } catch (error) {
     if (resultTab && !resultTab.closed) {
       resultTab.close();
     }
 
+    actionMessage.dataset.preserve = "true";
+    shouldPreserveActionMessage = true;
     actionMessage.textContent = `Start the backend with "cd backEnd && npm start", then try again. ${error.message}`;
   } finally {
     createWebPageButton.disabled = false;
     createWebPageButton.textContent = "Create Page";
     renderSavedInputs();
+
+    if (!shouldPreserveActionMessage) {
+      delete actionMessage.dataset.preserve;
+    }
   }
 }
 

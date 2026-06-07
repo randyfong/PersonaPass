@@ -1,0 +1,20 @@
+{
+  "provider": "magnific-mcp",
+  "status": "local_assets_created_and_ready_for_magnific_replacement",
+  "assets": [
+    {
+      "id": "hero",
+      "fileName": "hero.png",
+      "fallbackUrl": "assets/hero.svg",
+      "aspectRatio": "16:9",
+      "prompt": "Create a polished hero image for \"Outdoor Movie Night\" tailored to Family. Use this source event image as visual reference: https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png. Event details: date friday, september 6, location duboce park. Visual priorities: social energy, affordability, family value. Style: premium editorial event web page, realistic lighting, inviting composition, no text in image."
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.png",
+      "fallbackUrl": "assets/detail.svg",
+      "aspectRatio": "4:3",
+      "prompt": "Create a supporting event detail image for Family. Use this source event image as visual reference: https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png. Use cues from this event page: Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but donations to Friends of Duboce Park are welcome. Various snacks will be available for purchase (cash preferred). Please remember to pack.... Emphasize social energy, affordability, family value. No text in image."
+    }
+  ]
+}

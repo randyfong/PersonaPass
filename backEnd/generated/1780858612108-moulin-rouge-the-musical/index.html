@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moulin Rouge! The Musical</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #17201c;
+      --muted: #5d6761;
+      --paper: #fbfaf7;
+      --surface: #ffffff;
+      --line: #d7ded7;
+      --accent: #126853;
+      --accent-2: #b65f34;
+      --soft: #eaf3ef;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      overflow-wrap: break-word;
+    }
+
+    .hero {
+      min-height: 760px;
+      display: grid;
+      align-items: end;
+      padding: 36px;
+      background:
+        linear-gradient(90deg, rgba(18, 104, 83, 0.86), rgba(18, 104, 83, 0.18)),
+        url("https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg") center / cover no-repeat;
+      color: #ffffff;
+    }
+
+    .hero-inner,
+    .content {
+      width: min(1760px, calc(100vw - 72px));
+      margin: 0 auto;
+    }
+
+    .source {
+      display: inline-flex;
+      max-width: 100%;
+      margin-bottom: 20px;
+      color: #ffffff;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    h1 {
+      max-width: 1120px;
+      margin: 0 0 18px;
+      font-size: 6.2rem;
+      line-height: 0.92;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      max-width: 860px;
+      margin: 0 0 28px;
+      color: rgba(255, 255, 255, 0.9);
+      font-size: 1.28rem;
+      line-height: 1.5;
+    }
+
+    .button {
+      display: inline-grid;
+      min-height: 52px;
+      padding: 0 22px;
+      place-items: center;
+      border-radius: 8px;
+      background: #ffffff;
+      color: var(--accent);
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .event-details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 10px;
+      max-width: 100%;
+      margin: 0 0 28px;
+    }
+
+    .event-details div {
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.92);
+      color: var(--ink);
+    }
+
+    .event-details dt {
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+
+    .event-details dd {
+      margin: 2px 0 0;
+      font-weight: 800;
+    }
+
+    .content {
+      display: grid;
+      gap: 28px;
+      padding: 42px 0 64px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    .proof {
+      display: grid;
+      grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    article p {
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .proof > div {
+      display: grid;
+      align-content: start;
+      gap: 18px;
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .detail-asset {
+      width: 100%;
+      height: clamp(360px, 31vw, 560px);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: 0 18px 44px rgba(23, 32, 28, 0.08);
+      object-fit: cover;
+    }
+
+    .sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+    }
+
+    .visitor-guide {
+      display: grid;
+      grid-template-columns: minmax(380px, 0.9fr) repeat(2, minmax(320px, 1fr));
+      gap: 16px;
+      align-items: stretch;
+      padding: 26px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--soft);
+    }
+
+    .guide-copy h2 {
+      margin: 0 0 12px;
+      font-size: 2.45rem;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .guide-copy p {
+      margin: 0 0 14px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .guide-card {
+      background: rgba(255, 255, 255, 0.76);
+    }
+
+    .guide-card h3 {
+      margin: 0 0 12px;
+      font-size: 1.15rem;
+      letter-spacing: 0;
+    }
+
+    .guide-card ul {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    .source-images {
+      display: grid;
+      gap: 14px;
+    }
+
+    .source-images h2 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    .source-image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 12px;
+    }
+
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--surface);
+    }
+
+    figure img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+    }
+
+    .image-loading-tile {
+      display: grid;
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      place-items: center;
+      background: #f2f5f1;
+      color: var(--muted);
+      font-size: 1.2rem;
+      font-weight: 900;
+    }
+
+    figcaption {
+      padding: 10px;
+      color: var(--muted);
+      font-size: 0.85rem;
+      line-height: 1.35;
+    }
+
+    article {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    article h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+      letter-spacing: 0;
+    }
+
+    .highlights {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    .highlights li {
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--accent);
+      font-weight: 800;
+    }
+
+    @media (max-width: 1180px) {
+      .hero-inner,
+      .content {
+        width: min(100% - 44px, 1120px);
+      }
+
+      .hero {
+        min-height: 680px;
+      }
+
+      h1 {
+        max-width: 940px;
+        font-size: 4.8rem;
+      }
+
+      .proof,
+      .visitor-guide {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .hero-inner,
+      .content {
+        width: min(100% - 28px, 100%);
+      }
+
+      .hero {
+        min-height: 640px;
+        padding: 22px 0;
+      }
+
+      h1 {
+        font-size: 3.2rem;
+      }
+
+      .lead {
+        font-size: 1.05rem;
+      }
+
+      .source {
+        font-size: 0.92rem;
+      }
+
+      .content {
+        padding: 24px 0 42px;
+      }
+
+      .event-details {
+        grid-template-columns: 1fr;
+      }
+
+      .proof > div,
+      .visitor-guide,
+      article {
+        padding: 18px;
+      }
+
+      .proof,
+      .visitor-guide,
+      .sections,
+      .source-image-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <a class="source" href="https://www.broadway.com/shows/moulin-rouge-musical/">https://www.broadway.com/shows/moulin-rouge-musical/</a>
+      <h1>Moulin Rouge! The Musical</h1>
+      <p class="lead">Get official tickets to Moulin Rouge! The Musical on Broadway at the Al Hirschfeld Theatre from the trusted Broadway.com source for Broadway show info, tickets, reviews and news.</p>
+      <dl class="event-details">
+<div><dt>Date</dt><dd>Sun Jun 7</dd></div>
+<div><dt>Location</dt><dd>Al Hirschfeld Theatre</dd></div>
+<div><dt>Ticket price</dt><dd>$67</dd></div>
+      </dl>
+      <a class="button" href="https://www.broadway.com/shows/moulin-rouge-musical/">Plan My Visit</a>
+    </div>
+  </header>
+
+  <main class="content">
+    <section class="proof">
+      <div>
+        <ul class="highlights">
+<li>convenience</li>
+<li>social energy</li>
+        </ul>
+      </div>
+      <img class="detail-asset" src="assets/detail.svg" alt="Tailored profile and event fit summary">
+    </section>
+
+    <section class="visitor-guide" aria-labelledby="visitor-guide-title">
+      <div class="guide-copy">
+        <p class="eyebrow">Visitor Guide</p>
+        <h2 id="visitor-guide-title">What to Know</h2>
+        <p>Moulin Rouge! The Musical may be a good match if you are looking for convenience and social energy.</p>
+        <p>Use this page as a quick guide to decide whether Moulin Rouge! The Musical fits your interests, schedule, and comfort level.</p>
+      </div>
+      <article class="guide-card">
+        <h3>Why It May Appeal</h3>
+        <ul>
+<li>The category chips are shown only when saved-profile cues and event-page cues both support them: convenience matched profile cues (easy and simple) with event cues (easy and simple) and social energy matched profile cues (group and drinks) with event cues (friends and music).</li>
+<li>The event page also highlights convenience, social energy, and runtime, which can help you quickly understand what kind of experience to expect.</li>
+<li>You are looking for a relaxed social outing and adult-friendly plans. This event is worth comparing because the page surfaces details you can check against those priorities before deciding.</li>
+<li>The event takes place at Al Hirschfeld Theatre, so you can check travel time, parking, and nearby transit before deciding.</li>
+        </ul>
+      </article>
+      <article class="guide-card">
+        <h3>Good to Know</h3>
+        <ul>
+<li>The scheduled time is Sun Jun 7. Check whether the duration and arrival timing work for your day.</li>
+<li>Look for practical details such as cost, accessibility, comfort, what to bring, and how active participation will be.</li>
+<li>The source images give a sense of the atmosphere, but the event page is still the best place to confirm final details.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="sections">
+
+        <article>
+          <h2>Why this may fit you</h2>
+          <p>Moulin Rouge! The Musical is a 86% fit for Night-Out Group: the profile points to a relaxed adult group outing and a manageable price. The source supports big musical/social energy, tickets from $67, and runtime 2 hours and 45 minutes, incl. intermission, so the main check is whether the price and show format work for the group.</p>
+        </article>
+
+        <article>
+          <h2>Plan your visit</h2>
+          <p>The event is scheduled for Sun Jun 7. It takes place at Al Hirschfeld Theatre. Tickets are listed from $67. Check travel time, accessibility, seating, and arrival needs before you go.</p>
+        </article>
+
+        <article>
+          <h2>Good to know</h2>
+          <p>Age guidance: Recommended for ages 12 and up. Children under 4 are not permitted. Children under 12 are not permitted in Can-Can seats. Content note: This production uses strobe lights, gunfire, herbal cigarette smoke, and some adult themes. Access note: Can-Can seats are not accessible.</p>
+        </article>
+    </section>
+
+    <section class="source-images" aria-label="Images found on the source event page">
+      <h2>Source Event Images</h2>
+      <div class="source-image-grid">
+
+        <figure>
+          <img src="https://imaging.broadway.com/images/poster-178275/w178/126327-9.jpg" alt="Source event image">
+          <figcaption>og:image</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://static.broadway.com/img/responsive/social/bwy-generic-social.ef3d64c1c7c9.jpg" alt="Source event image">
+          <figcaption>twitter:image</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://imaging.broadway.com/images/widescreen-169/w278/h156/130244-2.jpg" alt="Al Hirschfeld Theatre">
+          <figcaption>Al Hirschfeld Theatre</figcaption>
+        </figure>
+
+        <figure>
+          <img src="https://static.broadway.com/img/logos/publications/Variety.09b480a20c5f.png" alt="Variety">
+          <figcaption>Variety</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+  <script>
+    document.querySelectorAll(".source-image-grid img").forEach((image) => {
+      if (!/\.gif(?:[?#]|$)/i.test(image.currentSrc || image.src || "")) {
+        return;
+      }
+
+      const placeholder = document.createElement("div");
+      placeholder.className = "image-loading-tile";
+      placeholder.textContent = "Image Loading";
+      image.replaceWith(placeholder);
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "custom-brochure-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check env.js && node --check customizeWebPage/index.js && node --check customizeVideo/index.js && node --check contentAnalyzer.js && node --check digitalAssets.js && node --check eventReader.js && node --check magnificAssets.js && node --check pageRenderer.js && node --check storage.js && node --check ticketResearch.js && node tests/env.test.js && node tests/ageCap.test.js && node tests/customizeVideo.test.js"
+  }
+}

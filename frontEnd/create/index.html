@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customize Summary</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f6f5f2;
+      --surface: #ffffff;
+      --ink: #202124;
+      --muted: #646a73;
+      --line: #d9d6cf;
+      --accent: #246b5a;
+      --accent-dark: #17483d;
+      --focus: #c67b2c;
+      --shadow: 0 20px 50px rgba(36, 32, 25, 0.1);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background:
+        linear-gradient(135deg, rgba(36, 107, 90, 0.09), rgba(198, 123, 44, 0.06)),
+        var(--bg);
+    }
+
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 56px 0;
+    }
+
+    .page-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 24px;
+    }
+
+    .nav-link {
+      display: inline-grid;
+      min-height: 42px;
+      padding: 0 16px;
+      place-items: center;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.72);
+      color: var(--muted);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: #ffffff;
+    }
+
+    .intro {
+      max-width: 760px;
+      margin-bottom: 24px;
+    }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2,
+    p {
+      margin-top: 0;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: clamp(2.25rem, 7vw, 4.25rem);
+      line-height: 0.98;
+      letter-spacing: 0;
+    }
+
+    .intro p {
+      margin-bottom: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .summary-card {
+      min-height: 220px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .summary-card h2 {
+      margin-bottom: 14px;
+      font-size: 1.55rem;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .summary-card p {
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .summary-card a {
+      color: var(--accent-dark);
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+
+    .empty-state {
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .create-actions {
+      margin-top: 18px;
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+    }
+
+    .create-actions h2 {
+      margin-bottom: 10px;
+      font-size: 1.55rem;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .create-actions p {
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    button {
+      min-height: 46px;
+      padding: 0 18px;
+      border: 0;
+      border-radius: 8px;
+      background: var(--accent);
+      color: #ffffff;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: var(--accent-dark);
+    }
+
+    .secondary-action {
+      background: #ece8df;
+      color: var(--ink);
+    }
+
+    .secondary-action:hover {
+      background: #ded8cc;
+    }
+
+    @media (max-width: 720px) {
+      main {
+        width: min(100% - 20px, 920px);
+        padding: 28px 0;
+      }
+
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .summary-card {
+        padding: 20px;
+      }
+
+      .create-actions {
+        padding: 20px;
+      }
+
+      .action-row {
+        display: grid;
+      }
+
+      button {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav class="page-nav" aria-label="Page navigation">
+      <a class="nav-link" href="../index.html">Profile</a>
+      <a class="nav-link" href="../event/index.html">Event</a>
+      <a class="nav-link active" href="index.html" aria-current="page">Customize</a>
+    </nav>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Customize</p>
+      <h1 id="page-title">Summary</h1>
+      <p>Review the saved profile and event website before creating the next item.</p>
+    </section>
+
+    <section class="summary-grid" aria-label="Saved inputs">
+      <article class="summary-card">
+        <p class="eyebrow">Saved Profile</p>
+        <h2 id="profile-title">No profile saved</h2>
+        <p id="profile-summary" class="empty-state">Save a profile from the Profile page to show it here.</p>
+      </article>
+
+      <article class="summary-card">
+        <p class="eyebrow">Saved Event URL</p>
+        <h2>Website</h2>
+        <p id="event-url" class="empty-state">Save an event URL from the Event page to show it here.</p>
+      </article>
+    </section>
+
+    <section class="create-actions" aria-labelledby="create-actions-title">
+      <p class="eyebrow">Customize Event Information</p>
+      <h2 id="create-actions-title">Customize Event</h2>
+      <p>Use the saved profile and event URL to customize event information.</p>
+      <div class="action-row">
+        <button id="create-web-page" type="button">Customize Web Page</button>
+        <button id="create-video" class="secondary-action" type="button">Customize Video</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const profileTitle = document.querySelector("#profile-title");
+    const profileSummary = document.querySelector("#profile-summary");
+    const eventUrl = document.querySelector("#event-url");
+    const createWebPageButton = document.querySelector("#create-web-page");
+    const createVideoButton = document.querySelector("#create-video");
+
+    function escapeHtml(value) {
+      return String(value || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function renderSavedProfile() {
+      const savedProfile = localStorage.getItem("profileSummary");
+      if (!savedProfile) {
+        profileTitle.textContent = "No profile saved";
+        profileSummary.classList.add("empty-state");
+        profileSummary.textContent = "Save a profile from the Profile page to show it here.";
+        return;
+      }
+
+      try {
+        const profile = JSON.parse(savedProfile);
+        profileTitle.textContent = profile.title || "Saved Profile";
+        profileSummary.classList.remove("empty-state");
+        profileSummary.textContent = profile.summary || "No profile summary was saved.";
+      } catch (error) {
+        profileTitle.textContent = "Saved Profile";
+        profileSummary.classList.add("empty-state");
+        profileSummary.textContent = "The saved profile could not be loaded.";
+      }
+    }
+
+    function renderSavedEventUrl() {
+      const savedUrl = localStorage.getItem("eventUrl");
+      if (!savedUrl) {
+        eventUrl.classList.add("empty-state");
+        eventUrl.textContent = "Save an event URL from the Event page to show it here.";
+        return;
+      }
+
+      eventUrl.classList.remove("empty-state");
+      eventUrl.innerHTML = `<a href="${escapeHtml(savedUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(savedUrl)}</a>`;
+    }
+
+    function renderSavedInputs() {
+      renderSavedProfile();
+      renderSavedEventUrl();
+    }
+
+    function getSavedInputs() {
+      const savedProfile = localStorage.getItem("profileSummary");
+      const savedEventUrl = localStorage.getItem("eventUrl");
+
+      if (!savedProfile || !savedEventUrl) {
+        return null;
+      }
+
+      return {
+        profile: JSON.parse(savedProfile),
+        eventUrl: savedEventUrl.trim()
+      };
+    }
+
+    function showMissingInputsMessage() {
+      window.alert("Save both a profile and an event URL before creating customized event information.");
+    }
+
+    async function createWebPage() {
+      let savedInputs;
+      let resultTab = null;
+
+      renderSavedInputs();
+
+      try {
+        savedInputs = getSavedInputs();
+      } catch (error) {
+        window.alert("The saved profile could not be loaded. Save the profile again before creating a page.");
+        return;
+      }
+
+      if (!savedInputs) {
+        showMissingInputsMessage();
+        return;
+      }
+
+      createWebPageButton.disabled = true;
+      createWebPageButton.textContent = "Creating...";
+      resultTab = window.open("about:blank", "_blank");
+
+      if (resultTab) {
+        resultTab.opener = null;
+        resultTab.document.title = "Creating tailored page";
+        resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your tailored page...</p>";
+      }
+
+      try {
+        const response = await fetch("http://localhost:3001/api/create-web-page", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json"
+          },
+          body: JSON.stringify(savedInputs)
+        });
+        const result = await response.json();
+
+        if (!response.ok || !result.ok) {
+          throw new Error(result.error || "The backend could not create the page.");
+        }
+
+        const resultUrl = `http://localhost:3001${result.page.url}`;
+        if (resultTab) {
+          resultTab.location.href = resultUrl;
+        }
+      } catch (error) {
+        if (resultTab && !resultTab.closed) {
+          resultTab.close();
+        }
+
+        window.alert(`Start the backend with "cd backEnd && npm start", then try again. ${error.message}`);
+      } finally {
+        createWebPageButton.disabled = false;
+        createWebPageButton.textContent = "Customize Web Page";
+      }
+    }
+
+    async function createVideo() {
+      let savedInputs;
+      let resultTab = null;
+
+      renderSavedInputs();
+
+      try {
+        savedInputs = getSavedInputs();
+      } catch (error) {
+        window.alert("The saved profile could not be loaded. Save the profile again before creating a video.");
+        return;
+      }
+
+      if (!savedInputs) {
+        showMissingInputsMessage();
+        return;
+      }
+
+      createVideoButton.disabled = true;
+      createVideoButton.textContent = "Creating video...";
+      resultTab = window.open("about:blank", "_blank");
+
+      if (resultTab) {
+        resultTab.opener = null;
+        resultTab.document.title = "Creating event teaser";
+        resultTab.document.body.innerHTML = "<p style=\"font-family: system-ui, sans-serif; padding: 24px;\">Creating your Happy Horse event teaser...</p>";
+      }
+
+      try {
+        const response = await fetch("http://localhost:3001/api/create-video", {
+          method: "POST",
+          headers: {
+            "content-type": "application/json"
+          },
+          body: JSON.stringify(savedInputs)
+        });
+        const result = await response.json();
+
+        if (!response.ok || !result.ok) {
+          const error = new Error(result.error || "The backend could not create the video.");
+          error.code = result.code;
+          throw error;
+        }
+
+        const pageUrl = new URL("../video/index.html", window.location.href);
+        pageUrl.searchParams.set("videoUrl", result.videoUrl);
+        pageUrl.searchParams.set("status", result.status || "completed");
+        pageUrl.searchParams.set("title", "Event Teaser");
+
+        if (resultTab) {
+          resultTab.location.href = pageUrl.href;
+        }
+      } catch (error) {
+        if (resultTab && !resultTab.closed) {
+          resultTab.close();
+        }
+
+        if (error.code === "MCP_AUTH_ERROR") {
+          window.alert(`The backend is running, but Magnific MCP authentication failed. ${error.message}`);
+        } else if ((error.code === "MCP_ERROR" || error.code === "GENERATION_ERROR") && /MAGNIFIC[_ ]MCP/i.test(error.message)) {
+          window.alert(`The backend is running, but Magnific MCP video generation is not configured. ${error.message}`);
+        } else {
+          window.alert(`Start the backend with "cd backEnd && npm start", then try again. ${error.message}`);
+        }
+      } finally {
+        createVideoButton.disabled = false;
+        createVideoButton.textContent = "Customize Video";
+      }
+    }
+
+    renderSavedInputs();
+    window.addEventListener("pageshow", renderSavedInputs);
+    window.addEventListener("focus", renderSavedInputs);
+    window.addEventListener("storage", renderSavedInputs);
+    createWebPageButton.addEventListener("click", createWebPage);
+    createVideoButton.addEventListener("click", createVideo);
+  </script>
+</body>
+</html>

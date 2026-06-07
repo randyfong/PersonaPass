@@ -1,0 +1,20 @@
+{
+  "provider": "magnific-mcp",
+  "status": "local_assets_created_and_ready_for_magnific_replacement",
+  "assets": [
+    {
+      "id": "hero",
+      "fileName": "hero.png",
+      "fallbackUrl": "assets/hero.svg",
+      "aspectRatio": "16:9",
+      "prompt": "Create a polished hero image for \"The Family Circus Comic Strip 2026-06-13 | Comics Kingdom\" tailored to Young Family. Use this source event image as visual reference: https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/06/Y2tUaGUgRmFtaWx5IENpcmN1cy1FTkctNjI4NjU1OQ.jpg. Event details: date february 19, location 829 read more featured creator st. Visual priorities: family value, convenience. Style: premium editorial event web page, realistic lighting, inviting composition, no text in image."
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.png",
+      "fallbackUrl": "assets/detail.svg",
+      "aspectRatio": "4:3",
+      "prompt": "Create a supporting event detail image for Young Family. Use this source event image as visual reference: https://wp.comicskingdom.com/comicskingdom-redesign-uploads-production/2026/06/Y2tUaGUgRmFtaWx5IENpcmN1cy1FTkctNjI4NjU1OQ.jpg. Use cues from this event page: Read the The Family Circus comic strip from June 13, 2026, and check out other The Family Circus comics by Bil & Jeff Keane.. Emphasize family value, convenience. No text in image."
+    }
+  ]
+}

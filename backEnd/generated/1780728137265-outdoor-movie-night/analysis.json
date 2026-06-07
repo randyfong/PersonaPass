@@ -1,0 +1,495 @@
+{
+  "profile": {
+    "title": "Young Family",
+    "summary": "This profile appears to describe young family users. Key clues: A family of two adults and a four-year-old and a one-year-old Recommended tone: Emphasize low-friction planning, family value, trust, and shared experiences. Helpful, reassuring, and practical."
+  },
+  "eventPage": {
+    "sourceUrl": "https://friendsofdubocepark.org/events-activities/movienight/",
+    "title": "Outdoor Movie Night",
+    "description": "Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but donations to Friends of Duboce Park are welcome. Various snacks will be available for purchase (cash preferred). Please remember to pack...",
+    "headings": [
+      "Friends of Duboce Park",
+      "San Francisco",
+      "Outdoor Movie Night",
+      "Past Movie Nights",
+      "Share this:",
+      "Park Happenings",
+      "Newsletter",
+      "Join our Mailing List",
+      "Donate Here",
+      "Follow us on Instagram"
+    ],
+    "eventInfo": {
+      "name": "Outdoor Movie Night",
+      "description": "Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but donations to Friends of Duboce Park are welcome. Various snacks will be available for purchase (cash preferred). Please remember to pack...",
+      "startDate": "Friday, September 6",
+      "endDate": "May 30, 2026",
+      "dates": [
+        "Friday, September 6",
+        "May 30, 2026",
+        "September 26, 2026",
+        "October 4, 2025"
+      ],
+      "displayStartDate": "Friday, September 6",
+      "displayEndDate": "Saturday, May 30, 2026 at 12:00 AM",
+      "displayDateRange": "",
+      "displayDates": [
+        "Friday, September 6",
+        "Saturday, May 30, 2026 at 12:00 AM",
+        "Saturday, September 26, 2026 at 12:00 AM",
+        "Saturday, October 4, 2025 at 12:00 AM"
+      ],
+      "location": "Duboce Park",
+      "locations": [
+        "Duboce Park",
+        "Harvey Milk Recreation Center",
+        "Programs Harvey Milk Photo Center",
+        "Parks Updates Park"
+      ],
+      "sections": [
+        {
+          "title": "San Francisco",
+          "body": "Menu About Us Mission Statement President’s Message History of Friends of Duboce Park Membership Info History of Duboce Park About the Harvey Milk Recreation Center Newsletters Events & Activities Events Calendar Monthly Volunteer Days Harvey Milk Courses and Programs Harvey Milk"
+        },
+        {
+          "title": "Outdoor Movie Night",
+          "body": "Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but donations to Friends of Duboce Park are welcome. Various snacks will be available for purchase (cash"
+        },
+        {
+          "title": "Past Movie Nights",
+          "body": "October 4, 2025 Outdoor Movie Night returned to Duboce Park on Saturday, October 4 with Disney’s Coco . The movie began at 7 p.m. on the upper lawn. September 6, 2024 Sundown Cinema was in Duboce Park on Friday, September 6 for an exclusive showing of San Francisco’s Lost Landsca"
+        },
+        {
+          "title": "Share this:",
+          "body": "Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Like Loading... Search for:"
+        },
+        {
+          "title": "Park Happenings",
+          "body": "Free Outdoor Movie Night : Saturday, May 30 @ 8:30 p.m. Events Calendar"
+        },
+        {
+          "title": "Newsletter",
+          "body": "Current Newsletter"
+        }
+      ],
+      "ticketInfo": null
+    },
+    "images": [
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png?w=144",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2026/04/movie-night-2026.5.09-digital-flyer.png?w=819",
+        "source": "img",
+        "alt": "",
+        "width": 819,
+        "height": 1023,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/08/movie-night-2025.10.04-digital-flyer.png?w=700",
+        "source": "img",
+        "alt": "",
+        "width": 700,
+        "height": 875,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png?w=250",
+        "source": "img",
+        "alt": "",
+        "width": 250,
+        "height": 400,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2024/05/rogue-one-movie-night-flyer_online.png",
+        "source": "img",
+        "alt": "",
+        "width": 650,
+        "height": 653,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2023/08/movie-night-poster.png",
+        "source": "img",
+        "alt": "",
+        "width": 624,
+        "height": 772,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2023/03/movie-night-695384513-e1680122796744.jpg?w=700",
+        "source": "img",
+        "alt": "",
+        "width": 700,
+        "height": 955,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2018/09/movie-night.jpg?w=275",
+        "source": "img",
+        "alt": "",
+        "width": 275,
+        "height": 425,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-10.png?w=300",
+        "source": "img",
+        "alt": "",
+        "width": 300,
+        "height": 250,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "primaryImage": {
+      "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png",
+      "source": "og:image",
+      "alt": "",
+      "width": 0,
+      "height": 0,
+      "placeholder": false,
+      "score": 56
+    },
+    "keywords": [
+      "park",
+      "movie",
+      "duboce",
+      "night",
+      "outdoor",
+      "francisco",
+      "friends",
+      "saturday",
+      "best",
+      "film",
+      "free",
+      "lawn",
+      "parks",
+      "september"
+    ],
+    "text": "Outdoor Movie Night – Friends of Duboce Park > Feed\" href=\"https://friendsofdubocepark.org/feed/\" /> > Comments Feed\" href=\"https://friendsofdubocepark.org/comments/feed/\" /> Skip to content Friends of Duboce Park San Francisco Menu About Us Mission Statement President’s Message History of Friends of Duboce Park Membership Info History of Duboce Park About the Harvey Milk Recreation Center Newsletters Events & Activities Events Calendar Monthly Volunteer Days Harvey Milk Courses and Programs Harvey Milk Photo Center Exhibits and Shows World Labyrinth Day Duboce ParkJam Outdoor Movie Night Pumpkin Carving Party 125th Anniversary Celebration 125th Anniversary Merch Rec & Parks Updates Park Maintenance Safety Free WiFi in Duboce Park Contact Location Map Contact Information Home Events & Activities Outdoor Movie Night Outdoor Movie Night Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but donations to Friends of Duboce Park are welcome. Various snacks will be available for purchase (cash preferred). Please remember to pack out your trash and recyclables after the event. Thank you for helping to keep our park clean! The N Judah stops right at Duboce Park and there are many other MUNI lines within a few blocks of the park. For more information or to sponsor, please contact movienight@friendsofdubocepark.org . The next Outdoor Movie Night will return Saturday, September 26, 2026 . Stayed tuned for more updates. Past Movie Nights October 4, 2025 Outdoor Movie Night returned to Duboce Park on Saturday, October 4 with Disney’s Coco . The movie began at 7 p.m. on the upper lawn. September 6, 2024 Sundown Cinema was in Duboce Park on Friday, September 6 for an exclusive showing of San Francisco’s Lost Landscapes: Found Home Movies . Many park regulars thought this was the biggest crowd ever in Duboce Park with attendance estimated at 500 people. SF’s Lost Landscapes is an eclectic montage of lost and rarely-seen film clips showing life, landscapes and labor in San Francisco as captured by amateurs, newsreel cameramen and industrial filmmakers. The footage was carefully curated by Rick Prelinger, a Bay Area guerrilla archivist who collects the home movies showing San Francisco’s people, neighborhoods, infrastructures, and celebrations from the early 20th century through the 1980s. Sundown Cinema was presented by San Francisco Parks Alliance and Alamo Drafthouse Cinema . It is produced by SF Parks Alliance and DoTheBay in partnership with the SF Rec & Park, SF OEWD, Presidio Trust, and Port of San Francisco. May 11, 2024 Outdoor Movie Night returned to Duboce Park on Saturday, May 11 with Rogue One: A Star Wars Story. The movie began at 8 p.m. on the upper lawn with local band Pistachio Fever playing beforehand at 6 p.m. A special thanks to Otra for sponsoring this movie night. May the Fourth (+1 week) Be With You! September 30, 2023 Outdoor Movie Night returned to Duboce Park again this year on Saturday, September 30 with The Super Mario Bros. Movie. The movie began at 7 p.m. on the upper lawn. April 29, 2023 Outdoor Movie Night returned to Duboce Park on Saturday, April 29 with Top Gun: Maverick, starring Tom Cruise. The 2022 action film is a sequel to the 1986 Top Gun with Cruise reprising his starring role as the naval aviator Maverick. It won the Academy Award for Best Sound and was nominated for five other Oscars including Best Picture, Best Achievement in Film Editing, Best Achievement in Music Written for Motion Pictures, Best Achievement in Visual Effects, and Best Adapted Screenplay. Top Gun: Maverick was the highest-grossing film of 2022, grossing $1.487 billion, the highest grossing film of Cruise’s career. The movie began at 8 p.m. on the upper lawn. August 23, 2018 An estimated 700 people attended outdoor movie night in Duboce Park on Thursday, August 23 to see Best in Show, a 2000 mockumentary film that offered a look into the highly competitive and cut-throat world of dog shows through the eyes of a group of ruthless dog owners. The movie won 11 awards, including AFI Movie of the Year and received 14 other nominations in a variety of categories. Fortunately, the weather was mild and there was no wind. The festivities started at 6 p.m. with a dog costume contest, free balloon animals, food trucks, a beer and wine booth, and Duboce Park Café had a snack booth. The movie was part of Sundown Cinema, a series of free movies being shown in four San Francisco parks on Thursdays. Sundown Cinema in Duboce Park was organized by San Francisco Parks Alliance and was hosted by Friends of Duboce Park. Other movies shown in other parks so far are Little Shop of Horrors at Conservatory of Flowers on June 28 and Mrs. Doubtfire in Alamo Square on June 26. The final movie is Grease and will be shown at the Jerry Garcia Amphitheater in McLaren Park on September 28. Share this: Share on X (Opens in new window) X Share on Facebook (Opens in new window) Facebook Like Loading... Search for: Park Happenings Free Outdoor Movie Night : Saturday, May 30 @ 8:30 p.m. Events Calendar Newsletter Current Newsletter Join our Mailing List Sign Up Here Donate Here Venmo @friendsofdubocepark Follow us on Instagram @friendsofdubocepark Like us on Facebook Like us on Facebook Archive Create a website or blog at WordPress.com Friends of Duboce Park Sign up Log in Copy shortlink Report this content Manage subscriptions Loading Comments... Write a Comment... Email (Required) Name (Required) Website %d",
+    "ticketResearch": {
+      "searched": true,
+      "query": "Outdoor Movie Night Duboce Park tickets price admission friendsofdubocepark.org",
+      "found": false,
+      "resultsChecked": 3
+    }
+  },
+  "comparison": {
+    "profileKeywords": [
+      "family",
+      "young",
+      "adults",
+      "appears",
+      "clues",
+      "describe",
+      "emphasize",
+      "experiences",
+      "four-year-old",
+      "helpful",
+      "low-friction",
+      "one-year-old"
+    ],
+    "eventKeywords": [
+      "park",
+      "movie",
+      "duboce",
+      "night",
+      "outdoor",
+      "francisco",
+      "friends",
+      "saturday",
+      "best",
+      "film",
+      "free",
+      "lawn",
+      "parks",
+      "september"
+    ],
+    "overlap": [],
+    "profileSignals": [
+      {
+        "label": "affordability",
+        "score": 1,
+        "evidence": [
+          "value"
+        ]
+      },
+      {
+        "label": "convenience",
+        "score": 1,
+        "evidence": [
+          "low-friction"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 1,
+        "evidence": [
+          "family"
+        ]
+      }
+    ],
+    "eventSignals": [
+      {
+        "label": "social energy",
+        "score": 5,
+        "evidence": [
+          "friends",
+          "music",
+          "party",
+          "group",
+          "beer"
+        ]
+      },
+      {
+        "label": "affordability",
+        "score": 1,
+        "evidence": [
+          "free"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 1,
+        "evidence": [
+          "safety"
+        ]
+      }
+    ],
+    "matchedSignals": [
+      {
+        "label": "affordability",
+        "score": 2,
+        "profileEvidence": [
+          "value"
+        ],
+        "eventEvidence": [
+          "free"
+        ]
+      },
+      {
+        "label": "family value",
+        "score": 2,
+        "profileEvidence": [
+          "family"
+        ],
+        "eventEvidence": [
+          "safety"
+        ]
+      }
+    ],
+    "unmetSignals": [
+      {
+        "label": "convenience",
+        "profileEvidence": [
+          "low-friction"
+        ]
+      }
+    ],
+    "ageCompatibility": {
+      "profileAgeGroup": "family",
+      "profileAges": [],
+      "eventMinimumAge": null,
+      "status": "caution",
+      "scoreAdjustment": -25,
+      "maxScore": 55,
+      "adultFriendlyEvent": false,
+      "evidence": [
+        "no clear child or family age guidance"
+      ]
+    },
+    "interests": [
+      "affordability",
+      "family value"
+    ],
+    "rawScore": 44,
+    "unmetNeedPenalty": 10,
+    "ageScoreAdjustment": -25,
+    "spendReadyPremiumFit": false,
+    "spendReadyScoreBonus": 0,
+    "ageScoreCap": 55,
+    "scoreFloor": 50,
+    "uncappedScore": 9,
+    "score": 50
+  },
+  "pageModel": {
+    "eventName": "Outdoor Movie Night",
+    "audience": "Young Family",
+    "headline": "Outdoor Movie Night",
+    "subheadline": "Outdoor Movie Night returns to Duboce Park on Saturday, May 30, 2026 with Jurassic Park. The movie will begin at about 8:30 p.m. on the upper lawn. The event is free to attend but ...",
+    "callToAction": "Plan My Visit",
+    "proofPoint": "50% fit after subtracting 10 points for 1 unmet need category and subtracting 25 points for age caution from 2 matched interest categories found in both the saved profile and event page.",
+    "eventDetails": [
+      "Date: Friday, September 6",
+      "Location: Duboce Park"
+    ],
+    "visitorGuide": {
+      "title": "What to Know",
+      "opener": "Outdoor Movie Night may be a good match if you are looking for affordability and family value.",
+      "reasons": [
+        "The category chips are shown only when saved-profile cues and event-page cues both support them: affordability matched profile cues (value) with event cues (free) and family value matched profile cues (family) with event cues (safety).",
+        "The event page also highlights affordability, family value, and age guidance, which can help you quickly understand what kind of experience to expect.",
+        "You are looking for clear value and a manageable cost, adult-friendly plans, and family-friendly logistics. This event is worth comparing because the page surfaces details you can check against those priorities before deciding.",
+        "The event takes place at Duboce Park, so you can check travel time, parking, and nearby transit before deciding."
+      ],
+      "notes": [
+        "The scheduled time is Friday, September 6. Check whether the duration and arrival timing work for your day.",
+        "Look for practical details such as cost, accessibility, comfort, what to bring, and how active participation will be.",
+        "The source images give a sense of the atmosphere, but the event page is still the best place to confirm final details."
+      ],
+      "close": "Use this page as a quick guide to decide whether Outdoor Movie Night fits your interests, schedule, and comfort level."
+    },
+    "sourceImage": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png",
+    "sourceImages": [
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png",
+        "source": "og:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png?w=144",
+        "source": "twitter:image",
+        "alt": "",
+        "width": 0,
+        "height": 0,
+        "placeholder": false,
+        "score": 56
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2026/04/movie-night-2026.5.09-digital-flyer.png?w=819",
+        "source": "img",
+        "alt": "",
+        "width": 819,
+        "height": 1023,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/08/movie-night-2025.10.04-digital-flyer.png?w=700",
+        "source": "img",
+        "alt": "",
+        "width": 700,
+        "height": 875,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-9.png?w=250",
+        "source": "img",
+        "alt": "",
+        "width": 250,
+        "height": 400,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2024/05/rogue-one-movie-night-flyer_online.png",
+        "source": "img",
+        "alt": "",
+        "width": 650,
+        "height": 653,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2023/08/movie-night-poster.png",
+        "source": "img",
+        "alt": "",
+        "width": 624,
+        "height": 772,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2023/03/movie-night-695384513-e1680122796744.jpg?w=700",
+        "source": "img",
+        "alt": "",
+        "width": 700,
+        "height": 955,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2018/09/movie-night.jpg?w=275",
+        "source": "img",
+        "alt": "",
+        "width": 275,
+        "height": 425,
+        "placeholder": false,
+        "score": 28
+      },
+      {
+        "url": "https://friendsofdubocepark.org/wp-content/uploads/2025/04/image-10.png?w=300",
+        "source": "img",
+        "alt": "",
+        "width": 300,
+        "height": 250,
+        "placeholder": false,
+        "score": 16
+      }
+    ],
+    "sections": [
+      {
+        "title": "Why this may fit you",
+        "body": "Outdoor Movie Night is a 50% fit for Young Family: the profile points to clear value, and the source supports that with age guidance, affordability, and family value."
+      },
+      {
+        "title": "Plan your visit",
+        "body": "The event is scheduled for Friday, September 6. It takes place at Duboce Park. Check travel time, accessibility, seating, and arrival needs before you go."
+      },
+      {
+        "title": "Good to know",
+        "body": "Age guidance: subscriptions Loading Comments... Write a Comment... Email (Required) Name (Required) Website %d."
+      }
+    ],
+    "highlights": [
+      "affordability",
+      "family value"
+    ]
+  },
+  "digitalAssets": [
+    {
+      "id": "hero",
+      "fileName": "hero.svg",
+      "relativeUrl": "assets/hero.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1600\" height=\"900\" viewBox=\"0 0 1600 900\" role=\"img\" aria-label=\"Outdoor Movie Night\">\n  <defs>\n    <linearGradient id=\"sky\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#0f6b56\"/>\n      <stop offset=\"0.58\" stop-color=\"#26766a\"/>\n      <stop offset=\"1\" stop-color=\"#b35f37\"/>\n    </linearGradient>\n    <radialGradient id=\"light\" cx=\"68%\" cy=\"22%\" r=\"62%\">\n      <stop offset=\"0\" stop-color=\"#ffe7b8\" stop-opacity=\"0.86\"/>\n      <stop offset=\"1\" stop-color=\"#ffe7b8\" stop-opacity=\"0\"/>\n    </radialGradient>\n    <filter id=\"shadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">\n      <feDropShadow dx=\"0\" dy=\"18\" stdDeviation=\"22\" flood-color=\"#0d3029\" flood-opacity=\"0.24\"/>\n    </filter>\n  </defs>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#sky)\"/>\n  <rect width=\"1600\" height=\"900\" fill=\"url(#light)\"/>\n  <path d=\"M0 628 C210 526 346 690 557 598 C755 512 832 328 1078 393 C1297 450 1392 544 1600 442 L1600 900 L0 900 Z\" fill=\"#f7f1e7\" opacity=\"0.92\"/>\n  <path d=\"M1020 182 C1128 116 1278 135 1376 232 C1476 332 1492 483 1417 590 C1337 704 1169 722 1045 643 C914 560 882 369 963 245 C978 222 995 201 1020 182 Z\" fill=\"#fff8ec\" opacity=\"0.92\" filter=\"url(#shadow)\"/>\n  <circle cx=\"1206\" cy=\"394\" r=\"156\" fill=\"#e7f2ee\"/>\n  <path d=\"M1091 435 C1140 365 1192 334 1255 340 C1320 348 1371 398 1395 474 C1346 525 1285 550 1212 548 C1149 546 1102 507 1091 435 Z\" fill=\"#126853\"/>\n  <path d=\"M1130 430 C1169 392 1210 376 1255 382 C1304 388 1340 421 1358 471 C1316 498 1272 511 1225 508 C1182 504 1147 478 1130 430 Z\" fill=\"#f0b66d\"/>\n  <g transform=\"translate(96 160)\">\n<text x=\"0\" y=\"86\" fill=\"#ffffff\" font-size=\"86\" font-weight=\"800\">Outdoor Movie Night</text>\n<text x=\"4\" y=\"368\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Outdoor Movie Night returns to Duboce Park on</text>\n<text x=\"4\" y=\"409.85\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">Saturday, May 30, 2026 with Jurassic Park. The movie</text>\n<text x=\"4\" y=\"451.7\" fill=\"#ffffff\" font-size=\"31\" font-weight=\"600\">will begin at about 8:30 p.m. on the upper lawn. The</text>\n  </g>\n  <g transform=\"translate(100 710)\">\n    <g transform=\"translate(0 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">affordability</text>\n    </g>\n<g transform=\"translate(250 0)\">\n      <rect x=\"0\" y=\"0\" width=\"222\" height=\"54\" rx=\"12\" fill=\"#ffffff\" opacity=\"0.95\"/>\n      <text x=\"18\" y=\"35\" fill=\"#126853\" font-size=\"22\" font-weight=\"900\">family value</text>\n    </g>\n  </g>\n  <g transform=\"translate(1020 675)\">\n    <text x=\"0\" y=\"0\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Date: Friday, September 6</text>\n<text x=\"0\" y=\"34\" fill=\"#126853\" font-size=\"25\" font-weight=\"900\">Location: Duboce Park</text>\n  </g>\n</svg>"
+    },
+    {
+      "id": "detail",
+      "fileName": "detail.svg",
+      "relativeUrl": "assets/detail.svg",
+      "contentType": "image/svg+xml",
+      "content": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1800\" height=\"900\" viewBox=\"0 0 1800 900\" role=\"img\" aria-label=\"Profile and event fit summary\">\n  <rect width=\"1800\" height=\"900\" fill=\"#fbfaf7\"/>\n  <rect x=\"70\" y=\"60\" width=\"1660\" height=\"780\" rx=\"28\" fill=\"#ffffff\" stroke=\"#d7ded7\" stroke-width=\"4\"/>\n  <text x=\"130\" y=\"132\" fill=\"#126853\" font-size=\"32\" font-weight=\"900\">TAILORED EVENT GUIDE</text>\n  <text x=\"130\" y=\"214\" fill=\"#17201c\" font-size=\"82\" font-weight=\"900\">Young Family</text>\n  <g transform=\"translate(1510 94)\">\n    <circle cx=\"82\" cy=\"82\" r=\"82\" fill=\"#eaf3ef\"/>\n    <circle cx=\"82\" cy=\"82\" r=\"60\" fill=\"#126853\"/>\n    <text x=\"82\" y=\"89\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"42\" font-weight=\"900\">50%</text>\n    <text x=\"82\" y=\"132\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"18\" font-weight=\"800\">FIT</text>\n  </g>\n  <g transform=\"translate(130 316)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">1</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Why this may fit you</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Outdoor Movie Night is a 50% fit for Young Family: the profile points to clear value, and the source</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">supports that with age guidance, affordability, and family value.</text>\n    </g>\n<g transform=\"translate(130 494)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">2</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Plan your visit</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">The event is scheduled for Friday, September 6. It takes place at Duboce Park. Check travel time,</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">accessibility, seating, and arrival needs before you go.</text>\n    </g>\n<g transform=\"translate(130 672)\">\n      <rect x=\"0\" y=\"-46\" width=\"1540\" height=\"146\" rx=\"20\" fill=\"#f2f5f1\"/>\n      <circle cx=\"48\" cy=\"20\" r=\"30\" fill=\"#b65f34\"/>\n      <text x=\"48\" y=\"31\" text-anchor=\"middle\" fill=\"#ffffff\" font-size=\"30\" font-weight=\"900\">3</text>\n      <text x=\"110\" y=\"-6\" fill=\"#17201c\" font-size=\"34\" font-weight=\"900\">Good to know</text>\n      <text x=\"110\" y=\"40\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Age guidance: subscriptions Loading Comments... Write a Comment... Email (Required) Name (Required)</text>\n<text x=\"110\" y=\"70.5\" fill=\"#3f4a45\" font-size=\"25\" font-weight=\"700\">Website %d.</text>\n    </g>\n  <path d=\"M1512 760 C1560 716 1625 710 1676 746 C1628 796 1564 819 1480 812 C1483 791 1493 774 1512 760 Z\" fill=\"#126853\"/>\n</svg>"
+    }
+  ]
+}
